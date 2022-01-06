@@ -18,9 +18,11 @@ const Navbar = () => {
                     <NavLink to="/inspire" activeStyle>
                         Вдъхнови се тук
                     </NavLink>
+                    <img src={red} style={{height: "15px", width: "15px", background: "white"}}></img>
                     <NavLink to="/about" activeStyle>
                         За мен
                     </NavLink>
+                    <img src={red} style={{height: "15px", width: "15px", background: "white"}}></img>
                     <NavLink to="/contacts" activeStyle>
                         Контакт
                     </NavLink>
