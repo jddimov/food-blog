@@ -1,36 +1,37 @@
 import React from 'react'
-import { Nav, NavLink, Bars, NavMenu, NavBtn, NavBtnLink} from "./NavbarElements";
+import { Nav, NavLink, Bars, NavMenu } from "./NavbarElements";
 import red from "./red-arrow.png";
+import logoClean from "./logo-clean.png";
 
 const Navbar = () => {
     return (
         <>
-            <Nav>
+            <Nav style={{position: "fixed", width: "100%"}}>
                 <NavLink to="/">
-                    <h1>Logo img</h1>
+                <img src={logoClean} activeStyle style={{height: "90px", width: "290px", margin: "40px 50px 10px 10px"}} />
                 </NavLink>
-                
+                <Bars />
                 <NavMenu>
-                    <NavLink to="/recipes" activeStyle>
-                        Рецепти
-                    </NavLink>
-                    <img src={red} style={{height: "15px", width: "15px", background: "white"}}></img>
+                    <NavLink to="/recipes" activeStyle>Рецепти</NavLink>
+
+                    <img src={red} activeStyle style={{height: "25px", width: "25px"}} />
+
                     <NavLink to="/inspire" activeStyle>
                         Вдъхнови се тук
                     </NavLink>
-                    <img src={red} style={{height: "15px", width: "15px", background: "white"}}></img>
+                    
                     <NavLink to="/about" activeStyle>
                         За мен
                     </NavLink>
-                    <img src={red} style={{height: "15px", width: "15px", background: "white"}}></img>
+
+                    <img src={red} style={{height: "25px", width: "25px", background: "white"}}></img>
+
                     <NavLink to="/contacts" activeStyle>
                         Контакт
                     </NavLink>
                     
                 </NavMenu>
-                <NavBtn>
-                    <NavBtnLink to="/signin>">Sign in</NavBtnLink>
-                </NavBtn>
+                
             </Nav>
         </>
     )
