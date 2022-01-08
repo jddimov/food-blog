@@ -1,12 +1,12 @@
 import React from 'react'
 import { Nav, NavLink, Bars, NavMenu } from "./NavbarElements";
-import red from "./red-arrow.png";
+
 import logoClean from "./logo-clean.png";
 
 const Navbar = () => {
     return (
         <>
-            <Nav style={{position: "fixed", width: "100%"}}>
+            <Nav style={{position: "fixed", width: "100%" }}>
                 <NavLink to="/">
                 <img src={logoClean} activeStyle style={{height: "90px", width: "290px", margin: "40px 50px 10px 10px"}} />
                 </NavLink>
@@ -14,7 +14,6 @@ const Navbar = () => {
                 <NavMenu>
                     <NavLink to="/recipes" activeStyle>Рецепти</NavLink>
 
-                    <img src={red} activeStyle style={{height: "25px", width: "25px"}} />
 
                     <NavLink to="/inspire" activeStyle>
                         Вдъхнови се тук
@@ -24,7 +23,6 @@ const Navbar = () => {
                         За мен
                     </NavLink>
 
-                    <img src={red} style={{height: "25px", width: "25px", background: "white"}}></img>
 
                     <NavLink to="/contacts" activeStyle>
                         Контакт
@@ -33,6 +31,7 @@ const Navbar = () => {
                 </NavMenu>
                 
             </Nav>
+            
         </>
     )
 }
