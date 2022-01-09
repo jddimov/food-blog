@@ -1,38 +1,33 @@
 import React from 'react'
 import { Nav, NavLink, Bars, NavMenu } from "./NavbarElements";
-import red from "./red-arrow.png";
+
 import logoClean from "./logo-clean.png";
 
-const Navbar = () => {
+const Navbar = ( { toggle } ) => {
+
     return (
         <>
-            <Nav style={{position: "fixed", width: "100%"}}>
+            <Nav >
+
                 <NavLink to="/">
-                <img src={logoClean} activeStyle style={{height: "90px", width: "290px", margin: "40px 50px 10px 10px"}} />
+                <img src={logoClean} activeStyle style={{height: "90px", width: "290px", margin: "40px 250px 10px 10px"}} />
                 </NavLink>
-                <Bars />
+
+                
+
                 <NavMenu>
                     <NavLink to="/recipes" activeStyle>Рецепти</NavLink>
 
-                    <img src={red} activeStyle style={{height: "25px", width: "25px"}} />
-
-                    <NavLink to="/inspire" activeStyle>
-                        Вдъхнови се тук
-                    </NavLink>
+                    <NavLink to="/inspire" activeStyle>Вдъхнови се тук</NavLink>
                     
-                    <NavLink to="/about" activeStyle>
-                        За мен
-                    </NavLink>
+                    <NavLink to="/about" activeStyle>За мен</NavLink>
 
-                    <img src={red} style={{height: "25px", width: "25px", background: "white"}}></img>
-
-                    <NavLink to="/contacts" activeStyle>
-                        Контакт
-                    </NavLink>
-                    
+                    <NavLink to="/contacts" activeStyle>Контакт</NavLink> 
                 </NavMenu>
                 
+                <Bars onClick={toggle}/>
             </Nav>
+            
         </>
     )
 }
