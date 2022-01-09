@@ -1,20 +1,28 @@
 import React from 'react'
 import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink } from './SidebarElement'
+import logoClean from "../Navbar/logo-clean.png";
 
-const Sidebar = () => {
+const Sidebar = ({isOpen, toggle}) => {
     return (
-        <SidebarContainer>
-            <Icon>
+        <SidebarContainer isOpen={isOpen} onClick={toggle}>
+            <Icon onClick={toggle}>
                 <CloseIcon />
             </Icon>
 
+                <SidebarLink to="/" >
+                    <img src={logoClean} activeStyle style={{height: "90px", width: "290px", margin: "40px 250px 10px 10px"}} />
+                 </SidebarLink>
+
             <SidebarWrapper>
+                    
                 <SidebarMenu>
                     
-                    <SidebarLink to="recipes">recipes</SidebarLink>
-                    <SidebarLink to="inspire">inspire</SidebarLink>
-                    <SidebarLink to="about">About</SidebarLink>
-                    <SidebarLink to="contacts">contacts</SidebarLink>
+                    
+                   
+                    <SidebarLink to="/recipes">Рецепти</SidebarLink>
+                    <SidebarLink to="/inspire">Вдъхнови се тук</SidebarLink>
+                    <SidebarLink to="/about">За мен</SidebarLink>
+                    <SidebarLink to="/contacts">Контакт</SidebarLink>
                     
                 </SidebarMenu>
             </SidebarWrapper>

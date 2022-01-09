@@ -3,10 +3,12 @@ import React from 'react'
 function Inspire  ()  {
     return (
         <div>
-            <h1>vyhnovi se </h1>
-            <h1>vyhnovi se </h1>
-            <h1>vyhnovi se </h1>
-            <h1>vyhnovi se </h1>
+       <div></div>
+            <h1>vyhnovi se 1</h1>
+            <div style={{ marginTop: "80px" }}></div>
+            <h1>vyhnovi se 2</h1>
+            <h1>vyhnovi se 3</h1>
+            <h1>vyhnovi se 4</h1>
             <h1>vyhnovi se 5</h1>
             <h1>vyhnovi se </h1>
             <h1>vyhnovi se </h1>
