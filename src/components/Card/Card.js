@@ -9,10 +9,9 @@ function Card(props) {
     return (
         <div className="card-container">
             
-                <p>{props.id}</p>
+                
 
-                <div className="card-image"><img src={props.imgMain}></img></div>
-
+                <div ><img src={props.imgMain} className='card-image'></img></div>
 
                 <div className='card-content'>
                 <div className='card-title'><h2>{props.title}</h2></div>
@@ -28,11 +27,16 @@ function Card(props) {
                 <div>{props.minutes}</div>
                 <div>{props.ingredients}</div>
                 <div>{props.servings}</div>
+                
+                </div>
+
+                <div className='button'>
+                <button className='card-btn'>Виж рецептата</button>
                 </div>
 
                 </div>
             
-                <div ><button className='card-btn'>Виж рецептата</button></div>
+                
         </div>
     );
 }
