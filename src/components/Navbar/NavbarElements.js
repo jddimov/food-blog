@@ -10,7 +10,7 @@ export const Nav = styled.div`
     justify-content: flex-start;
     position: fixed;
     width: 100%;
-    
+    z-index: 999;
 `
 
 export const NavLink = styled(Link)`
