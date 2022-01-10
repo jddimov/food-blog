@@ -13,7 +13,6 @@ const Navbar = ( { toggle } ) => {
                 <img src={logoClean} activeStyle style={{height: "90px", width: "290px", margin: "40px 250px 10px 10px"}} />
                 </NavLink>
 
-                
 
                 <NavMenu>
                     <NavLink to="/recipes" activeStyle>Рецепти</NavLink>
