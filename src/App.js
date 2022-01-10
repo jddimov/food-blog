@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Sidebar from './components/Sidebar/Sidebar';
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
+
 import Home from "./pages/Home";
 import Recipes from './pages/Recipes';
 import Inspire from './pages/Inspire';
@@ -20,6 +21,7 @@ function App() {
     <Router>
      <Navbar  toggle={toggle} />
      <Sidebar toggle={toggle} isOpen={isOpen}/>
+     
      
      <Routes>
        <Route path="/" exact element={<Home/>} />
