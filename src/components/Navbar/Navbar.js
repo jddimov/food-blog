@@ -1,5 +1,6 @@
 import React from 'react'
 import { Nav, NavLink, Bars, NavMenu } from "./NavbarElements";
+import { FaAngleDown } from "react-icons/fa";
 
 import logoClean from "./logo-clean.png";
 
@@ -15,13 +16,18 @@ const Navbar = ( { toggle } ) => {
 
 
                 <NavMenu>
-                    <NavLink to="/recipes" activeStyle>Рецепти</NavLink>
 
-                    <NavLink to="/inspire" activeStyle>Вдъхнови се тук</NavLink>
+                    <NavLink to="/recipes" activeStyle>Рецепти&nbsp;<FaAngleDown /></NavLink>
                     
-                    <NavLink to="/about" activeStyle>За мен</NavLink>
 
-                    <NavLink to="/contacts" activeStyle>Контакт</NavLink> 
+                    <NavLink to="/inspire" activeStyle>Вдъхнови се тук&nbsp;<FaAngleDown /></NavLink>
+                    
+
+                    <NavLink to="/about" activeStyle>За мен&nbsp;<FaAngleDown /></NavLink>
+                    
+
+                    <NavLink to="/contacts" activeStyle>Контакт&nbsp;<FaAngleDown /></NavLink> 
+                    
                 </NavMenu>
                 
                 <Bars onClick={toggle}/>
