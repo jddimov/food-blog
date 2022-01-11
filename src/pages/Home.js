@@ -14,7 +14,7 @@ const Home = () => {
             <h1>Home</h1>
 
 
-            <div style={{marginTop: "100px", marginBottom: "100px"}}>
+            <div style={{ marginTop: "550px", marginBottom: "100px"}}>
             <ShowTest /></div>
             {/* <Test  /> */}
 
