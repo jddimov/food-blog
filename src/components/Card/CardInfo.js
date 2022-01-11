@@ -16,8 +16,8 @@ const CardInfo = [
         id: 1,
         imgMain: one,
         title: "SALATA",
-        description: "mnogo vkusna",
-        minutes: "5min",
+        
+        minutes: "5 min",
         ingredients: "domat",
         servings: "221"
     },
@@ -26,7 +26,7 @@ const CardInfo = [
         imgMain: two,
         title: "PRASE",
         description: "mazno, s proteini, s koja, no bez ushichki povtarqm bez ushickhite",
-        minutes: "115min",
+        minutes: "115 min",
         ingredients: "prasence",
         servings: "229"
     },

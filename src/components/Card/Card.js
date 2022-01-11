@@ -15,7 +15,7 @@ function Card(props) {
 
                 <div className='card-content'>
                 <div className='card-title'><h2>{props.title}</h2></div>
-                <div className='card-description'><p>{props.description}</p></div>
+                
                 
                 <div className='icons'>
                 <div><FaRegClock style={{height: "25px", width: "25px" }}/> </div>
