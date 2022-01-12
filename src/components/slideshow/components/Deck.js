@@ -5,6 +5,7 @@ import one from "../../Carousel/pics/(3).jpg"
 import four from '../../Carousel/pics/(4).jpg'
 import five from '../../Carousel/pics/(5).jpg'
 import six from '../../Carousel/pics/(6).jpg'
+import varna from '../../Carousel/pics/varna.jpg'
 
 import Card from './Card.js';
 
@@ -14,7 +15,7 @@ class Deck extends Component {
 
         this.state = {
             cards: [
-                <Card picsum={one} id="one" key="one" />,
+                <Card picsum={varna} id="one" key="one" />,
                 <Card picsum={four} id="two" key="two" />,
                 <Card picsum={five} id="three" key="three" />,
                 <Card picsum={six} id="four" key="four" />
@@ -40,11 +41,11 @@ class Deck extends Component {
                 (img_width_as_percentage / 100) * window.innerWidth;
 
         this.view_port.style.width = `${this.new_width}px`;
-        this.nav_buttons_container.style.width = `${nav_buttons_placement_as_percentage}vw`;
-        this.button_prev.style.width = `${(this.new_width / 2) * 0.030}px`;
-        this.button_next.style.width = `${(this.new_width / 2) * 0.030}px`;
+        // this.nav_buttons_container.style.width = `${nav_buttons_placement_as_percentage}vw`;
+        this.button_prev.style.width = `${10}px`;
+        this.button_next.style.width = `${10}px`;
 
-        this.selection_buttons_container.style.bottom = `${this.view_port.getBoundingClientRect().top}px`;
+        this.selection_buttons_container.style.bottom = `${1}vh`;
         for (let i = 0; i < this.images.children.length; i++) {
             this.selection_buttons_container.children[i].transitionDuration = '0.0s';
             this.selection_buttons_container.children[i].style.width = `${this.new_width * 0.01}px`;
@@ -58,7 +59,7 @@ class Deck extends Component {
             img_width_as_percentage = 100;
             // img_width_as_percentage = window.innerWidth < 768 ? 100 : img_width_as_percentage;
             nav_buttons_placement_as_percentage = 80;
-            // nav_buttons_placement_as_percentage = window.innerWidth < 768 ? 100 : nav_buttons_placement_as_percentage;
+             nav_buttons_placement_as_percentage = window.innerWidth < 768 ? 100 : nav_buttons_placement_as_percentage;
 
             this.new_width =
                 /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ?
@@ -67,8 +68,8 @@ class Deck extends Component {
 
             this.view_port.style.width = `${this.new_width}px`;
             this.nav_buttons_container.style.width = `${nav_buttons_placement_as_percentage}vw`;
-            this.button_prev.style.width = `${(this.new_width ) * 0.30}px`;
-            this.button_next.style.width = `${(this.new_width ) * 0.30}px`;
+            this.button_prev.style.width = `${1}vw`;
+            this.button_next.style.width = `${1}vw`;
 
             this.selection_buttons_container.style.bottom = `${this.view_port.getBoundingClientRect().top}px`;
             for (let i = 0; i < this.images.children.length; i++) {
@@ -320,8 +321,9 @@ const styles = {
     nav_buttons_container: {
         margin: 0,
         padding: 0,
-        width: '80vw',
-        position: 'absolute',
+        height: '1%',
+        width: '30vw',
+        position: 'relative',
         top: '50%',
         left: '50%',
         display: 'flex',
