@@ -47,8 +47,8 @@ class Deck extends Component {
         this.selection_buttons_container.style.bottom = `${this.view_port.getBoundingClientRect().top}px`;
         for (let i = 0; i < this.images.children.length; i++) {
             this.selection_buttons_container.children[i].transitionDuration = '0.0s';
-            this.selection_buttons_container.children[i].style.width = `${this.new_width * 0.009}px`;
-            this.selection_buttons_container.children[i].style.height = `${this.new_width * 0.009}px`;
+            this.selection_buttons_container.children[i].style.width = `${this.new_width * 0.01}px`;
+            this.selection_buttons_container.children[i].style.height = `${this.new_width * 0.01}px`;
         }
 
         this.order_cards();
@@ -57,7 +57,7 @@ class Deck extends Component {
         window.addEventListener('resize', () => {
             img_width_as_percentage = 100;
             // img_width_as_percentage = window.innerWidth < 768 ? 100 : img_width_as_percentage;
-            nav_buttons_placement_as_percentage = 60;
+            nav_buttons_placement_as_percentage = 80;
             // nav_buttons_placement_as_percentage = window.innerWidth < 768 ? 100 : nav_buttons_placement_as_percentage;
 
             this.new_width =
@@ -299,11 +299,9 @@ const styles = {
     view_port: {
         margin: 0,
         padding: 0,
-        maxWidth: '1900px',
-        maxHeight: '480px',
-        width: '3000px',
-        height: '800px',
-        position: 'absolute',
+        width: '100%',
+        height: '90vh',
+        position: 'relative',
         top: '50%',
         left: '50%',
         transform: 'translate(-50%, -50%)',
@@ -322,7 +320,7 @@ const styles = {
     nav_buttons_container: {
         margin: 0,
         padding: 0,
-        width: '100vw',
+        width: '80vw',
         position: 'absolute',
         top: '50%',
         left: '50%',
@@ -333,24 +331,18 @@ const styles = {
         transform: 'translate(-50%, -50%)',
         pointerEvents: 'none',
         zIndex: 49,
-        color: 'green'
     },
     nav_button: {
         width: '50%',
         height: 'auto',
         pointerEvents: 'all',
         cursor: 'pointer',
-        color: 'red'
-        
     },
 
     selection_buttons_container: {
         margin: 0,
         padding: 0,
-        width: 'fit-content',
-        height: 'fit-content',
-        
-        position: 'absolute',
+        position: 'relative',
         bottom: 0,
         left: '50%',
         transform: 'translateX(-50%)',
@@ -367,7 +359,6 @@ const styles = {
         width: '20px',
         height: '20px',
         borderRadius: '50%',
-        backgroundColor: 'grey',
         pointerEvents: 'all',
         cursor: 'pointer'
     },

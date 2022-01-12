@@ -1,8 +1,8 @@
 .cards-container {
-    margin: 3rem;
+    margin: 2rem;
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
     justify-content: center;
-    margin-top: 600px;
+    margin-top: 5%;
 }
