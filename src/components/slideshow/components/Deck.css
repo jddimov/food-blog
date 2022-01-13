@@ -1,0 +1,13 @@
+/* .selection_button_container {
+    bottom: 100vh;
+} */
+
+
+.nav_buttons_container:hover {
+    box-shadow: 5px 10px;
+}
+
+.arrows:hover {
+    box-shadow: 5px 5px 5px 5px;
+    color: red;
+}
