@@ -1,10 +1,12 @@
 import React, { Component, Fragment } from 'react';
+import "./Deck.css"
 import left from "./left-chevron.svg"
 import right from "./right-chevron.svg"
 import one from "../../Carousel/pics/(3).jpg"
 import four from '../../Carousel/pics/(4).jpg'
 import five from '../../Carousel/pics/(5).jpg'
 import six from '../../Carousel/pics/(6).jpg'
+import varna from '../../Carousel/pics/varna.jpg'
 
 import Card from './Card.js';
 
@@ -14,7 +16,7 @@ class Deck extends Component {
 
         this.state = {
             cards: [
-                <Card picsum={one} id="one" key="one" />,
+                <Card picsum={varna} id="one" key="one" />,
                 <Card picsum={four} id="two" key="two" />,
                 <Card picsum={five} id="three" key="three" />,
                 <Card picsum={six} id="four" key="four" />
@@ -28,27 +30,28 @@ class Deck extends Component {
         this.current_card = this.middle_card_by_index;
 
         /* ********** RESPONSIVE CODE ******** */
-        let img_width_as_percentage = 95;
+        let img_width_as_percentage = 100;
         // img_width_as_percentage = window.innerWidth < 768 ? 100 : img_width_as_percentage;
         let nav_buttons_placement_as_percentage = 90;
         // nav_buttons_placement_as_percentage = window.innerWidth < 768 ? 100 : nav_buttons_placement_as_percentage;
 
 
         this.new_width =
-            /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ?
-                (img_width_as_percentage / 100) * window.screen.width :
-                (img_width_as_percentage / 100) * window.innerWidth;
+            // /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ?
+               // (img_width_as_percentage / 100) * window.screen.width 
+                 (img_width_as_percentage / 100) * window.innerWidth;
 
-        this.view_port.style.width = `${this.new_width}px`;
+        this.view_port.style.width = `${95}vw`;
         this.nav_buttons_container.style.width = `${nav_buttons_placement_as_percentage}vw`;
-        this.button_prev.style.width = `${(this.new_width / 2) * 0.030}px`;
-        this.button_next.style.width = `${(this.new_width / 2) * 0.030}px`;
 
-        this.selection_buttons_container.style.bottom = `${this.view_port.getBoundingClientRect().top}px`;
+        this.button_prev.style.width = `${25}px`;
+        this.button_next.style.width = `${25}px`;
+
+        this.selection_buttons_container.style.bottom = `${20}vh`;
         for (let i = 0; i < this.images.children.length; i++) {
             this.selection_buttons_container.children[i].transitionDuration = '0.0s';
-            this.selection_buttons_container.children[i].style.width = `${this.new_width * 0.009}px`;
-            this.selection_buttons_container.children[i].style.height = `${this.new_width * 0.009}px`;
+            this.selection_buttons_container.children[i].style.width = `${this.new_width * 0.02}px`;
+            this.selection_buttons_container.children[i].style.height = `${this.new_width * 0.02}px`;
         }
 
         this.order_cards();
@@ -57,24 +60,25 @@ class Deck extends Component {
         window.addEventListener('resize', () => {
             img_width_as_percentage = 100;
             // img_width_as_percentage = window.innerWidth < 768 ? 100 : img_width_as_percentage;
-            nav_buttons_placement_as_percentage = 60;
-            // nav_buttons_placement_as_percentage = window.innerWidth < 768 ? 100 : nav_buttons_placement_as_percentage;
+            nav_buttons_placement_as_percentage = 80;
+            //  nav_buttons_placement_as_percentage = window.innerWidth < 768 ? 100 : nav_buttons_placement_as_percentage;
 
             this.new_width =
-                /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ?
-                    (img_width_as_percentage / 100) * window.screen.width :
+                // /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ?
+                  //   (img_width_as_percentage / 100) * window.screen.width :
                     (img_width_as_percentage / 100) * window.innerWidth;
 
-            this.view_port.style.width = `${this.new_width}px`;
+             this.view_port.style.width = `${this.new_width}px`;
             this.nav_buttons_container.style.width = `${nav_buttons_placement_as_percentage}vw`;
-            this.button_prev.style.width = `${(this.new_width ) * 0.30}px`;
-            this.button_next.style.width = `${(this.new_width ) * 0.30}px`;
+            this.nav_buttons_container.style.height = `${146}px`;
+            this.button_prev.style.width = `${25}px`;
+            this.button_next.style.width = `${25}px`;
 
-            this.selection_buttons_container.style.bottom = `${this.view_port.getBoundingClientRect().top}px`;
+            // this.selection_buttons_container.style.bottom = `${10}vh`;
             for (let i = 0; i < this.images.children.length; i++) {
                 this.selection_buttons_container.children[i].transitionDuration = '0.0s';
-                this.selection_buttons_container.children[i].style.width = `${this.new_width * 0.05}px`;
-                this.selection_buttons_container.children[i].style.height = `${this.new_width * 0.05}px`;
+                // this.selection_buttons_container.children[i].style.width = `${this.new_width * 0.05}vw`;
+                // this.selection_buttons_container.children[i].style.height = `${this.new_width * 0.05}vw`;
             }
 
             this.order_cards();
@@ -110,6 +114,8 @@ class Deck extends Component {
         this.selection_buttons_container.children[0].click();
         /* *********************************** */
     }
+
+
 
     update_selection = () => {
         for (let i = 0; i < this.images.children.length; i++) {
@@ -168,23 +174,17 @@ class Deck extends Component {
     /* ******** BUTTON NAVIGATION ******** */
     handle_next = () => {
         if (this.scroll_in_progress) return;
-
         this.scroll_in_progress = true;
-
         for (let i = 0; i < this.images.children.length; i++) {
             this.images.children[i].style.transitionDuration = '0.0s';
-
             const updated_position = this.last_positions[i] - this.new_width;
-
             this.images.children[i].style.left = `${updated_position}px`;
             this.last_positions[i] = updated_position;
         }
 
         this.current_card = (this.current_card === this.number_of_cards_by_index) ? 0 : ++this.current_card;
-
         this.handle_boundaries();
         this.update_selection();
-
         setTimeout(() => {
             this.scroll_in_progress = false;
             this.start_autoplay();
@@ -193,14 +193,10 @@ class Deck extends Component {
 
     handle_prev = () => {
         if (this.scroll_in_progress) return;
-
         this.scroll_in_progress = true;
-
         for (let i = 0; i < this.images.children.length; i++) {
             this.images.children[i].style.transitionDuration = '0.0s';
-
             const updated_position = this.last_positions[i] + this.new_width;
-
             this.images.children[i].style.left = `${updated_position}px`;
             this.last_positions[i] = updated_position;
         }
@@ -274,11 +270,14 @@ class Deck extends Component {
     render() {
         return (
             <Fragment>
-                <div ref={ref_id => this.nav_buttons_container = ref_id} style={styles.nav_buttons_container}>
-                    <img onClick={this.handle_prev} ref={ref_id => this.button_prev = ref_id} style={styles.nav_button} src={left} alt="prev" id="prev" />
-                    <img onClick={this.handle_next} ref={ref_id => this.button_next = ref_id} style={styles.nav_button} src={right} alt="next" id="next" />
-                </div>
+                
                 <div ref={ref_id => this.view_port = ref_id} style={styles.view_port}>
+                <div ref={ref_id => this.nav_buttons_container = ref_id} style={styles.nav_buttons_container}>
+
+                    <img onClick={this.handle_prev} ref={ref_id => this.button_prev = ref_id} style={styles.nav_button} src={left} className="arrows" alt="prev" id="prev" />
+                    <img onClick={this.handle_next} ref={ref_id => this.button_next = ref_id} style={styles.nav_button} src={right} className="arrows" alt="next" id="next" />
+                    
+                </div>
                     <div ref={ref_id => this.images = ref_id} style={styles.images_container}>
                         {this.state.cards}
                     </div>
@@ -299,10 +298,8 @@ const styles = {
     view_port: {
         margin: 0,
         padding: 0,
-        maxWidth: '1900px',
-        maxHeight: '480px',
-        width: '3000px',
-        height: '800px',
+        width: '100%',
+        height: '90vh',
         position: 'absolute',
         top: '50%',
         left: '50%',
@@ -314,7 +311,7 @@ const styles = {
         padding: 0,
         width: 'inherit',
         height: 'inherit',
-        position: 'relative',
+        position: 'absolute',
         top: '50%',
         left: '50%',
         transform: 'translate(-50%, -50%)',
@@ -322,7 +319,6 @@ const styles = {
     nav_buttons_container: {
         margin: 0,
         padding: 0,
-        width: '100vw',
         position: 'absolute',
         top: '50%',
         left: '50%',
@@ -333,25 +329,20 @@ const styles = {
         transform: 'translate(-50%, -50%)',
         pointerEvents: 'none',
         zIndex: 49,
-        color: 'green'
     },
     nav_button: {
         width: '50%',
-        height: 'auto',
+        height: '50%',
         pointerEvents: 'all',
         cursor: 'pointer',
-        color: 'red'
-        
     },
 
     selection_buttons_container: {
         margin: 0,
         padding: 0,
-        width: 'fit-content',
-        height: 'fit-content',
-        
+        // width: 'fit-content',
+        // height: 'fit-content',
         position: 'absolute',
-        bottom: 0,
         left: '50%',
         transform: 'translateX(-50%)',
         display: 'flex',
@@ -367,7 +358,6 @@ const styles = {
         width: '20px',
         height: '20px',
         borderRadius: '50%',
-        backgroundColor: 'grey',
         pointerEvents: 'all',
         cursor: 'pointer'
     },

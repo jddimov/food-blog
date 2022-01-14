@@ -11,22 +11,22 @@ const Navbar = ( { toggle } ) => {
             <Nav >
 
                 <NavLink to="/">
-                <img src={logoClean} activeStyle style={{height: "90px", width: "290px", margin: "40px 250px 10px 10px"}} />
+                <img src={logoClean} activeStyle style={{height: "90px", width: "290px", margin: "40px 100px 10px 10px"}} />
                 </NavLink>
 
 
                 <NavMenu>
 
-                    <NavLink to="/recipes" activeStyle>Рецепти&nbsp;<FaAngleDown /></NavLink>
+                    <div><NavLink to="/recipes" activeStyle>Рецепти&nbsp;<FaAngleDown /></NavLink></div>
                     
 
-                    <NavLink to="/inspire" activeStyle>Вдъхнови се тук&nbsp;<FaAngleDown /></NavLink>
+                    <div><NavLink to="/inspire" activeStyle>Вдъхнови се тук&nbsp;<FaAngleDown /></NavLink></div>
                     
 
-                    <NavLink to="/about" activeStyle>За мен&nbsp;<FaAngleDown /></NavLink>
+                    <div><NavLink to="/about" activeStyle>За мен&nbsp;<FaAngleDown /></NavLink></div>
                     
 
-                    <NavLink to="/contacts" activeStyle>Контакт&nbsp;<FaAngleDown /></NavLink> 
+                    <div><NavLink to="/contacts" activeStyle>Контакт&nbsp;<FaAngleDown /></NavLink> </div>
                     
                 </NavMenu>
                 
