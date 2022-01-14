@@ -30,7 +30,7 @@ class Deck extends Component {
         this.current_card = this.middle_card_by_index;
 
         /* ********** RESPONSIVE CODE ******** */
-        let img_width_as_percentage = 95;
+        let img_width_as_percentage = 100;
         // img_width_as_percentage = window.innerWidth < 768 ? 100 : img_width_as_percentage;
         let nav_buttons_placement_as_percentage = 90;
         // nav_buttons_placement_as_percentage = window.innerWidth < 768 ? 100 : nav_buttons_placement_as_percentage;
@@ -41,11 +41,11 @@ class Deck extends Component {
                // (img_width_as_percentage / 100) * window.screen.width 
                  (img_width_as_percentage / 100) * window.innerWidth;
 
-        this.view_port.style.width = `${this.new_width}px`;
+        this.view_port.style.width = `${95}vw`;
         this.nav_buttons_container.style.width = `${nav_buttons_placement_as_percentage}vw`;
 
-        this.button_prev.style.width = `${3}vw`;
-        this.button_next.style.width = `${3}vw`;
+        this.button_prev.style.width = `${25}px`;
+        this.button_next.style.width = `${25}px`;
 
         this.selection_buttons_container.style.bottom = `${20}vh`;
         for (let i = 0; i < this.images.children.length; i++) {
@@ -64,15 +64,15 @@ class Deck extends Component {
             //  nav_buttons_placement_as_percentage = window.innerWidth < 768 ? 100 : nav_buttons_placement_as_percentage;
 
             this.new_width =
-                /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ?
-                    (img_width_as_percentage / 100) * window.screen.width :
+                // /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ?
+                  //   (img_width_as_percentage / 100) * window.screen.width :
                     (img_width_as_percentage / 100) * window.innerWidth;
 
-            this.view_port.style.width = `${this.new_width}px`;
+             this.view_port.style.width = `${this.new_width}px`;
             this.nav_buttons_container.style.width = `${nav_buttons_placement_as_percentage}vw`;
-            this.nav_buttons_container.style.height = `${50}vh`;
-            this.button_prev.style.width = `${1}vw`;
-            this.button_next.style.width = `${1}vw`;
+            this.nav_buttons_container.style.height = `${146}px`;
+            this.button_prev.style.width = `${25}px`;
+            this.button_next.style.width = `${25}px`;
 
             // this.selection_buttons_container.style.bottom = `${10}vh`;
             for (let i = 0; i < this.images.children.length; i++) {
@@ -114,6 +114,8 @@ class Deck extends Component {
         this.selection_buttons_container.children[0].click();
         /* *********************************** */
     }
+
+
 
     update_selection = () => {
         for (let i = 0; i < this.images.children.length; i++) {
