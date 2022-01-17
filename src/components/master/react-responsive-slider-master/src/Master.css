@@ -5,12 +5,16 @@
 }
 
 
+
 .container {
 width: 100%;
+margin: 0 auto;
+padding: 0 15px 50px;
 }
 
 .slider-wrapper {
   overflow-x: hidden;
+  margin-bottom: 50px;
 }
 
 .slider {
@@ -41,6 +45,7 @@ width: 100%;
   background-repeat: no-repeat;
   background-position: center center;
   overflow: hidden;
+  
 }
 
 .slider-wrapper__nav {
@@ -78,7 +83,7 @@ width: 100%;
   background-color: var(--primary-color);
   color: black;
   font-size: 112px;
-  display: flex;
+  display: block;
   justify-items: center;
   border: 0;
   outline: 0;
