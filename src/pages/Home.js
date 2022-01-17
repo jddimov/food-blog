@@ -2,8 +2,7 @@ import React from 'react'
 import CardInfo from '../components/Card/CardInfo'
 import Card from '../components/Card/Card'
 import "./Home.css"
-import Test from '../components/Carousel/Test'
-import ShowTest from '../components/slideshow/ShowTest'
+import SlidMaster2 from '../components/slid-master2/SlidMaster2'
 
 
 
@@ -14,8 +13,7 @@ const Home = () => {
             <h1>Home</h1>
 
 
-            <div style={{ marginTop: "22%", marginBottom: "5%"}}>
-            <ShowTest /></div>
+            <SlidMaster2 />
 
             {/* <Test  /> */}
 

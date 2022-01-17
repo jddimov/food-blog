@@ -25,6 +25,10 @@ const Slider = ({ children, showNav, startFrom }) => {
       slider.current.style.transform = `translateX(${(activeSlide - 1) * -100}%)`;
       setActiveSlide(prev => prev - 1);
     }
+    if(activeSlide === 0) {
+      setActiveSlide(children.length - 1);
+      slider.current.style.transform = `translateX(${(children.length - 1) * -100}%)`;
+  }
   }
 
   const showNextSlide = () => {
@@ -32,6 +36,10 @@ const Slider = ({ children, showNav, startFrom }) => {
       slider.current.style.transform = `translateX(${(activeSlide + 1) * -100}%)`;
       setActiveSlide(prev => prev + 1);
     }
+    if(activeSlide === children.length - 1) {
+      setActiveSlide(0);
+      slider.current.style.transform = `translateX(${(0) * -100}%)`;
+  }
   }
 
   const updateNavElements = (index) => {
@@ -46,8 +54,8 @@ const Slider = ({ children, showNav, startFrom }) => {
       </div>
 
       <div className="slider-wrapper__buttons">
-        <button onClick={showPrevSlide} disabled={activeSlide === 0}>Prev</button>
-        <button onClick={showNextSlide} disabled={activeSlide === children.length - 1}>Next</button>
+        <button onClick={showPrevSlide} >Prev</button>
+        <button onClick={showNextSlide} >Next</button>
       </div>
 
       {showNav && <div className="slider-wrapper__nav">

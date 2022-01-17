@@ -1,6 +1,6 @@
 import React from 'react'
-import Master from '../components/master/react-responsive-slider-master/src/Master'
-import Master2 from '../components/slid-master2/Master2'
+import SlidMaster2 from '../components/slid-master2/SlidMaster2'
+
 
 function Inspire  ()  {
     return (
@@ -8,8 +8,7 @@ function Inspire  ()  {
        <div></div>
             <h1>vyhnovi se 1</h1>
             <div style={{ marginTop: "80px" }}></div>
-            <Master />
-            {/* <Master2 /> */}
+          <SlidMaster2 />
             <h1>vyhnovi se 2</h1>
             <h1>vyhnovi se 3</h1>
             <h1>vyhnovi se 4</h1>
