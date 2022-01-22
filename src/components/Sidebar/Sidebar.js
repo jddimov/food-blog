@@ -10,7 +10,7 @@ const Sidebar = ({isOpen, toggle}) => {
             </Icon>
 
                 <SidebarLink to="/" >
-                    <img src={logoClean} activeStyle style={{height: "90px", width: "290px", margin: "40px 250px 10px 10px"}} />
+                    <img src={logoClean} activeStyle style={{height: "90px", width: "90px", margin: "40px 250px 10px 10px"}} />
                  </SidebarLink>
 
             <SidebarWrapper>

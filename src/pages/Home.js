@@ -2,20 +2,16 @@ import React from 'react'
 import CardInfo from '../components/Card/CardInfo'
 import Card from '../components/Card/Card'
 import "./Home.css"
-import SlidMaster2 from '../components/slid-master2/SlidMaster2'
+import Slider from '../Slider'
 
 
 
 const Home = () => {
     return (
         <div style={{ background: "#ffeeed" }}>
-            <h1>Home</h1>
-            <h1>Home</h1>
+            <h1 style={{marginBottom: "30px"}}>Home</h1>
 
-
-            <SlidMaster2 />
-
-            {/* <Test  /> */}
+            <Slider />
 
             <div className='cards-container'>
             <Card

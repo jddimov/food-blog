@@ -27,6 +27,7 @@ export const NavLink = styled(Link)`
 
     &:hover {
         text-decoration: underline;
+        color: #700000;
     }
 `
 export const Bars = styled(FaBars)`
