@@ -24,9 +24,7 @@ export const NavLink = styled(Link)`
     cursor: pointer;
     font-size: 150%;
 
-
     &:hover {
-        text-decoration: underline;
         color: #700000;
     }
 `
