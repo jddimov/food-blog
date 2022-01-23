@@ -14,22 +14,19 @@ const Navbar = ( { toggle } ) => {
             
                 <NavLink to="/" >
                 <div style={{ margin: "40px 100px 10px 10px"}}>
-                <img src={logoClean} activeStyle style={{height: "90px", width: "90px", color: "#8c0608"}} />
-                <span style={{ color: "#8c0608", fontSize: "30px" }}>Food Inspiration</span>
+                <img src={logoClean}  style={{height: "90px", width: "90px", color: "#8c0608"}} />
+                <span className='foodInspiration' >Food Inspiration</span>
                 </div>
                 </NavLink>
 
-
                 <NavMenu>
-                    <div className='menu'><NavLink to="/recipes"  activeStyle>Рецепти&nbsp;        <FaAngleDown /></NavLink></div>
+                    <div className='menu'><NavLink  to="/recipes"  activeStyle>Рецепти&nbsp;       <FaAngleDown /></NavLink></div>
                     <div className='menu'><NavLink to="/inspire"  activeStyle>Вдъхнови се тук&nbsp;<FaAngleDown /></NavLink></div>
                     <div className='menu'><NavLink to="/about"    activeStyle>За мен&nbsp;         <FaAngleDown /></NavLink></div>
                     <div className='menu'><NavLink to="/contacts" activeStyle>Контакт&nbsp;        <FaAngleDown /></NavLink></div>
                 </NavMenu>
-                
-                <Bars onClick={toggle}/>
+                <Bars onClick={toggle} />
             </Nav>
-            
         </>
     )
 }
