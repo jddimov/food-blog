@@ -9,21 +9,24 @@ const Sidebar = ({isOpen, toggle}) => {
                 <CloseIcon />
             </Icon>
 
-                <SidebarLink to="/" >
-                    <img src={logoClean} activeStyle style={{height: "90px", width: "90px", margin: "40px 250px 10px 10px"}} />
-                 </SidebarLink>
+                
 
-            <SidebarWrapper>
-                    
+            <SidebarWrapper>   
                 <SidebarMenu>
-                    
-                    
-                   
+                
+                    <div style={{marginTop: "60px"}}> 
+                    <SidebarLink to="/">
+                    <img src={logoClean} activeStyle style={{height: "90px", width: "90px"}} />
+                    </SidebarLink>
+                    <span style={{color:"#8c0608", fontSize: '30px'}} class='textLogo'>Food Inspiration</span>
+                    </div>
+                 
+
                     <SidebarLink to="/recipes">Рецепти</SidebarLink>
                     <SidebarLink to="/inspire">Вдъхнови се тук</SidebarLink>
                     <SidebarLink to="/about">За мен</SidebarLink>
                     <SidebarLink to="/contacts">Контакт</SidebarLink>
-                    
+
                 </SidebarMenu>
             </SidebarWrapper>
         </SidebarContainer>

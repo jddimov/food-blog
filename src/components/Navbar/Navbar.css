@@ -1,0 +1,14 @@
+.menu:hover {
+    text-decoration: underline;
+    color: #700000;
+}
+
+.foodInspiration {
+    color: #8c0608;
+    font-size: 30px;
+}
+
+@media  screen and (max-width: 405px) {
+.foodInspiration {
+    display: none;
+}}

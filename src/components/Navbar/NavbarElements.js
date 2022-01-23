@@ -24,16 +24,30 @@ export const NavLink = styled(Link)`
     cursor: pointer;
     font-size: 150%;
 
-
     &:hover {
-        text-decoration: underline;
         color: #700000;
     }
 `
+// export const Collapsable = styled(Link)`
+//     background: white;
+//     color: #700000;
+//     display: flex;
+//     align-items: center;
+//     text-decoration: none;
+//     padding: 0 1rem;
+//     height: 100%;
+//     cursor: pointer;
+//     font-size: 150%;
+
+//     &:hover {
+//         color: #700000;
+//     }
+// `
+
 export const Bars = styled(FaBars)`
     display: none;
     color: #700000;
-    margin-top: 15px;
+    margin-top: 15px;    
 
     @media screen and (max-width: 1050px) {
         display: block;

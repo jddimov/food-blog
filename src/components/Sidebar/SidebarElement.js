@@ -8,8 +8,8 @@ export const SidebarContainer = styled.aside`
     width: 100%;
     height: 100%;
     background: white;
-    display: grid;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
     top: 0;
     left: 0;
     transition: 0.3s ease-in-out;
@@ -21,7 +21,7 @@ export const CloseIcon = styled(FaTimes)`
     color: black;
 
     &:hover {
-        color: red;
+        color: #8c0608;
         transition: 0.2s ease-in-out;
     }
 `
@@ -40,31 +40,28 @@ export const SidebarWrapper = styled.div`
 `
 
 export const SidebarMenu = styled.ul`
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, 75px);
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    justify-items: center;
-
-    @media screen and (max-width: 480px) {
-        grid-template-rows: repeat(6, 60px);
-    }
+    justify-items: flex-start;
+    gap: 30px;
 `
 
 export const SidebarLink = styled(Links)`
+    position: relative;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     font-size: 1.5rem;
     text-decoration: none;
     line-style: none;
     transition: 0.2s ease-in-out;
-    text-decoration: none;
     color: black;
     cursor: pointer;
 
     &:hover {
-        color: red;
+        color: #8c0608;
+        text-decoration: underline;
         transition: 0.2s ease-in-out;
         
     }

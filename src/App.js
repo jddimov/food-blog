@@ -9,6 +9,8 @@ import Recipes from './pages/Recipes';
 import Inspire from './pages/Inspire';
 import About from './pages/About';
 import Contacts from './pages/Contacts';
+import Dessert from './pages/recipes/Dessert';
+import Appetizer from './pages/recipes/Appetizer';
 
 
 function App() {
@@ -29,7 +31,8 @@ function App() {
        <Route path="/inspire" exact element={<Inspire/>} />
        <Route path="/about" exact element={<About/>} />
        <Route path="/contacts" exact element={<Contacts/>} />
-       
+       <Route path="/recipes/dessert" exact element={<Dessert/>} />
+       <Route path="/recipes/appetizer" exact element={<Appetizer/>} />
        
      </Routes>
      {/* <Footer /> */}
