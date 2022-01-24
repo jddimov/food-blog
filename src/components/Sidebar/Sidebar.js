@@ -1,6 +1,7 @@
 import React from 'react'
 import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink } from './SidebarElement'
 import logoClean from "../Navbar/logo-clean.png";
+import "./Sidebar.css"
 
 const Sidebar = ({isOpen, toggle}) => {
     return (

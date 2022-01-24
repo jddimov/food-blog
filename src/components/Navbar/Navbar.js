@@ -1,13 +1,19 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { Nav, NavLink, Bars, NavMenu } from "./NavbarElements";
 import { FaAngleDown } from "react-icons/fa";
 import "./Navbar.css"
+import { useDetectOutsideClick } from "./useDetectOutsideClick";
 
 import logoClean from "./logo-clean.png";
 // color: "#8c0608" -> logo color
 
-const Navbar = ( { toggle } ) => {
 
+
+const Navbar = ( { toggle } ) => {
+    const dropdownRef = useRef(null);
+    const [dropDownIsActive, setDropDownIsActive] = useDetectOutsideClick(dropdownRef, false);
+    const onClick = () => setDropDownIsActive(!dropDownIsActive);
+    
     return (
         <>
             <Nav >
@@ -20,7 +26,33 @@ const Navbar = ( { toggle } ) => {
                 </NavLink>
 
                 <NavMenu>
-                    <div className='menu'><NavLink  to="/recipes"  activeStyle>Рецепти&nbsp;       <FaAngleDown /></NavLink></div>
+                
+                    <div className='menu'>
+                    {/* <NavLink  to="/recipes"  activeStyle> */}
+                    
+
+                    <div className="container">
+                        <div className="menudd-container">
+                          <button onClick={onClick} className="menudd-trigger">
+                            <span style={{fontSize: '150%', color: '#700000'}}>Рецепти&nbsp; <FaAngleDown /></span> 
+                          </button>
+        
+                          <nav ref={dropdownRef} className={`menudd ${dropDownIsActive ? "active" : "inactive"}`} >
+                            <ul>
+                              <li><a href="#">Салати</a></li>
+                              <li><a href="#">Супи</a></li>
+                              <li><a href="#">Предястия</a></li>
+                              <li><a href="#">Основни ястия</a></li>
+                              <li><a href="#">Десерти</a></li>
+                              <li><a href="#">Тестени изделия</a></li>
+                              
+                            </ul>
+                          </nav>
+                        </div>
+                    </div>
+                         {/* </NavLink> */}
+                         
+                    </div>
                     <div className='menu'><NavLink to="/inspire"  activeStyle>Вдъхнови се тук&nbsp;<FaAngleDown /></NavLink></div>
                     <div className='menu'><NavLink to="/about"    activeStyle>За мен&nbsp;         <FaAngleDown /></NavLink></div>
                     <div className='menu'><NavLink to="/contacts" activeStyle>Контакт&nbsp;        <FaAngleDown /></NavLink></div>
