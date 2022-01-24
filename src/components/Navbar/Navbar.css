@@ -1,3 +1,6 @@
+.menu {
+    color: green;
+}
 .menu:hover {
     text-decoration: underline;
     color: #700000;
@@ -21,7 +24,7 @@
   }
   
 .menudd-trigger {
-    background: #ffffff;
+    background: transparent;
     border-radius: 90px;
     cursor: pointer;
     display: flex;
@@ -55,10 +58,11 @@
     transform: translateY(-20px);
     transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s;
     border-radius: 8px;
+    background-image: linear-gradient(to right, #ffedf6 ,  #ffdfb9);
   position: absolute;
   top: 60px;
   width: 15vw;
-  font-size: 120%;
+  font-size: 130%;
   }
   .menudd a:hover {
       text-decoration: underline;

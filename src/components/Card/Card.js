@@ -3,6 +3,7 @@ import "./Card.css"
 import { FaRegClock  } from "react-icons/fa";
 import serving from "./serving.png";
 import book from "./book-outline.svg";
+import { Link } from "react-router-dom";
 
 
 function Card(props) {
@@ -11,7 +12,9 @@ function Card(props) {
             
                 
 
-                <div ><img src={props.imgMain} className='card-image'></img></div>
+                <div ><Link to="/recipes/salad">
+                <img src={props.imgMain} className='card-image'></img></Link>
+                </div>
 
                 <div className='card-content'>
                 <div className='card-title'><h2>{props.title}</h2></div>
@@ -30,8 +33,8 @@ function Card(props) {
                 
                 </div>
 
-                <div className='button'>
-                <button className='card-btn'>Виж рецептата</button>
+                <div className='button'><Link to="/recipes/salad">
+                <button className='card-btn'>Виж рецептата</button></Link>
                 </div>
 
                 </div>
