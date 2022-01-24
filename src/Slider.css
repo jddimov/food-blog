@@ -10,8 +10,35 @@
     height: 500px;
 }
 
-.text {
-    position: absolute;
-    bottom: 20px;
-    left: 800px;
+.carousel-caption {
+    top: 50vh;
+    left: 70vw;
 }
+.carousel-indicators {
+    position: absolute;
+    top: 70%;
+}
+
+
+
+@media (min-height: 805px) {
+    .carousel-indicators{
+        top: 65%;
+    }
+    @media (min-height: 860px) {
+        .carousel-indicators{
+            top: 55%;
+        }
+     }
+ }
+
+@media (max-height: 700px) {
+    .carousel-indicators{
+        top: 80%;
+    }
+ }
+ @media (max-height: 600px) {
+    .carousel-indicators{
+        top: 90%;
+    }
+ }
