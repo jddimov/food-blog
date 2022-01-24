@@ -2,7 +2,7 @@ import React from 'react'
 import CardInfo from '../components/Card/CardInfo'
 import Card from '../components/Card/Card'
 import "./Home.css"
-import Slider from '../Slider'
+import Slider from '../components/Slider/Slider'
 
 
 

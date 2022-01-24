@@ -1,5 +1,6 @@
 import React, { useRef } from 'react'
 import { Nav, NavLink, Bars, NavMenu } from "./NavbarElements";
+import { Link } from 'react-router-dom'
 import { FaAngleDown } from "react-icons/fa";
 import "./Navbar.css"
 import { useDetectOutsideClick } from "./useDetectOutsideClick";
@@ -39,12 +40,13 @@ const Navbar = ( { toggle } ) => {
         
                           <nav ref={dropdownRef} className={`menudd ${dropDownIsActive ? "active" : "inactive"}`} >
                             <ul>
-                              <li><a href="#">Салати</a></li>
-                              <li><a href="#">Супи</a></li>
-                              <li><a href="#">Предястия</a></li>
-                              <li><a href="#">Основни ястия</a></li>
-                              <li><a href="#">Десерти</a></li>
-                              <li><a href="#">Тестени изделия</a></li>
+                              <li><Link to="/recipes/salad" >Салати</Link></li>
+                              <li><Link to="/recipes/soup" >Супи</Link></li>
+                              <li><Link to="/recipes/appetizer" >Предястия</Link></li>
+                              <li><Link to="/recipes/main-dish" >Основни ястия</Link></li>
+                              <li><Link to="/recipes/dessert" >Десерти</Link></li>
+                              <li><Link to="/recipes/pastry" >Тестени изделия</Link></li>
+                              
                               
                             </ul>
                           </nav>
@@ -54,8 +56,8 @@ const Navbar = ( { toggle } ) => {
                          
                     </div>
                     <div className='menu'><NavLink to="/inspire"  activeStyle>Вдъхнови се тук&nbsp;<FaAngleDown /></NavLink></div>
-                    <div className='menu'><NavLink to="/about"    activeStyle>За мен&nbsp;         <FaAngleDown /></NavLink></div>
-                    <div className='menu'><NavLink to="/contacts" activeStyle>Контакт&nbsp;        <FaAngleDown /></NavLink></div>
+                    <div className='menu'><NavLink to="/about"    activeStyle>За мен&nbsp;                        </NavLink></div>
+                    <div className='menu'><NavLink to="/contacts" activeStyle>Контакт&nbsp;                       </NavLink></div>
                 </NavMenu>
                 <Bars onClick={toggle} />
             </Nav>

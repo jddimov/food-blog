@@ -1,10 +1,10 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import Carousel from 'react-bootstrap/Carousel';
-import one from './images/(1).jpg'
-import two from './images/(2).jpg'
-import three from './images/(3).jpg'
-import four from './images/(4).jpg'
+import one from './(1).jpg'
+import two from './(2).jpg'
+import three from './(3).jpg'
+import four from './(4).jpg'
 import "./Slider.css"
 
 export default function Slider() {
