@@ -1,7 +1,4 @@
 import React from 'react'
-import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
-import Appetizer from './recipes/Appetizer';
-import Dessert from './recipes/Dessert';
 import { NavLink } from "react-router-dom";
 
 const Recipes = () => {
