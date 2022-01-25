@@ -11,11 +11,12 @@ import About from './pages/About';
 import Contacts from './pages/Contacts';
 import Dessert from './pages/recipes/Dessert';
 import Appetizer from './pages/recipes/Appetizer';
-import MainDish from './pages/recipes/Main-dish';
+import MainDish from './pages/recipes/MainDish';
 import Soup from './pages/recipes/Soup';
 import Pastry from './pages/recipes/Pastry';
 import Salad from './pages/recipes/Salad';
 import ErrorPage from './pages/ErrorPage';
+import CommercialPage from './pages/recipes/CommercialPage';
 
 
 
@@ -37,15 +38,15 @@ function App() {
        <Route path="/inspire" exact element={<Inspire/>} />
        <Route path="/about" exact element={<About/>} />
        <Route path="/contacts" exact element={<Contacts/>} />
+
        <Route path="/recipes/dessert" exact element={<Dessert/>} />
        <Route path="/recipes/appetizer" exact element={<Appetizer/>} />
        <Route path="/recipes/main-dish" exact element={<MainDish/>} />
        <Route path="/recipes/soup" exact element={<Soup/>} />
        <Route path="/recipes/pastry" exact element={<Pastry/>} />
-       <Route path="/recipes/salad" exact element={<Salad/>} />
+       <Route path="/recipes/salad" exact element={<Salad />} />
 
-       <Route path="/recipes/salad/:id" exact element={<Salad/>} />
-       <Route path="/recipes/soup/:id" exact element={<Soup />} />
+       <Route path="/recipes/:category/:url" exact element={<CommercialPage />} />
        
        <Route path="*" element={<ErrorPage/> } />
           

@@ -15,17 +15,19 @@ const CardInfo = [
     {
         id: 0,
         imgMain: one,
-        title: "cezar",
+        url: "cezar",
+        title: "цезар",
         description: "mazno, s proteini, s koja, no bez ushichki povtarqm bez ushickhite",
         minutes: "5 min",
         ingredients: "domat",
         servings: "999",
-        category: "salad"
+        category: "appetizer"
     },
     {
         id: 1,
         imgMain: two,
-        title: "pileshak supa",
+        url: "chicken",
+        title: "пилешка",
         description: "mazno, s proteini, s koja, no bez ushichki povtarqm bez ushickhite",
         minutes: "115 min",
         ingredients: "prasence",
@@ -33,9 +35,9 @@ const CardInfo = [
         category: "soup"
     },
     {
-        id: 3,
+        id: 2,
         imgMain: three,
-        title: "bob",
+        title: "bob a",
         description: "mazno, s proteini, s koja, no bez ushichki povtarqm bez ushickhite",
         minutes: "115min",
         ingredients: "prasence",
@@ -43,7 +45,7 @@ const CardInfo = [
         category: "salad5"
     },
     {
-        id: 4,
+        id: 3,
         imgMain: four,
         title: "krava",
         description: "mazno, s proteini, s koja, no bez ushichki povtarqm bez ushickhite",
@@ -53,7 +55,7 @@ const CardInfo = [
         category: "saladxx"
     },
     {
-        id: 5,
+        id: 4,
         imgMain: five,
         title: "kafe",
         description: "mazno, s proteini, s koja, no bez ushichki povtarqm bez ushickhite",
@@ -63,7 +65,7 @@ const CardInfo = [
         category: "saladaa"
     },
     {
-        id: 6,
+        id: 5,
         imgMain: six,
         title: "qhniq",
         description: "mazno, s proteini, s koja, no bez ushichki povtarqm bez ushickhite",
