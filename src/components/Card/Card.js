@@ -14,7 +14,7 @@ function Card(props) {
 
                 <div >
                 {/* <Link to="/recipes/salad/"> */}
-                <Link to={`/recipes/${props.category}/${props.title}/`}>
+                <Link to={`/recipes/${props.category}/${props.id}/`}>
                 <img src={props.imgMain} className='card-image'></img></Link>
                 </div>
 

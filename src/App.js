@@ -43,6 +43,9 @@ function App() {
        <Route path="/recipes/soup" exact element={<Soup/>} />
        <Route path="/recipes/pastry" exact element={<Pastry/>} />
        <Route path="/recipes/salad" exact element={<Salad/>} />
+
+       <Route path="/recipes/salad/:id" exact element={<Salad/>} />
+       <Route path="/recipes/soup/:id" exact element={<Soup />} />
        
        <Route path="*" element={<ErrorPage/> } />
           

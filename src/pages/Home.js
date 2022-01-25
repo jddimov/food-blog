@@ -15,6 +15,7 @@ const Home = () => {
 
             <div className='cards-container'>
             <Card
+            id={CardInfo[1].id}
             imgMain={CardInfo[1].imgMain}
             title={CardInfo[1].title}
             minutes={CardInfo[1].minutes}
@@ -24,6 +25,7 @@ const Home = () => {
             />
 
             <Card
+            id={CardInfo[0].id}
             imgMain={CardInfo[0].imgMain}
             title={CardInfo[0].title}
             minutes={CardInfo[0].minutes}

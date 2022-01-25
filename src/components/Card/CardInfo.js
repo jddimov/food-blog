@@ -13,24 +13,24 @@ import twelve from "./pictures/izbrani/(12).jpg";
 
 const CardInfo = [
     {
-        id: 1,
+        id: 0,
         imgMain: one,
         title: "cezar",
         description: "mazno, s proteini, s koja, no bez ushichki povtarqm bez ushickhite",
         minutes: "5 min",
         ingredients: "domat",
-        servings: "221",
+        servings: "999",
         category: "salad"
     },
     {
-        id: 2,
+        id: 1,
         imgMain: two,
         title: "pileshak supa",
         description: "mazno, s proteini, s koja, no bez ushichki povtarqm bez ushickhite",
         minutes: "115 min",
         ingredients: "prasence",
         servings: "229",
-        category: "supa"
+        category: "soup"
     },
     {
         id: 3,
