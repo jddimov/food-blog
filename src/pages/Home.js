@@ -20,6 +20,7 @@ const Home = () => {
             minutes={CardInfo[1].minutes}
             ingredients={CardInfo[1].ingredients}
             servings={CardInfo[1].servings} 
+            category={CardInfo[1].category}
             />
 
             <Card
@@ -28,6 +29,7 @@ const Home = () => {
             minutes={CardInfo[0].minutes}
             ingredients={CardInfo[0].ingredients}
             servings={CardInfo[0].servings} 
+            category={CardInfo[0].category}
             />
 
             <Card
@@ -36,6 +38,7 @@ const Home = () => {
             minutes={CardInfo[2].minutes}
             ingredients={CardInfo[2].ingredients}
             servings={CardInfo[2].servings} 
+            category={CardInfo[2].category}
             />
              <Card
             imgMain={CardInfo[3].imgMain}
@@ -43,6 +46,7 @@ const Home = () => {
             minutes={CardInfo[3].minutes}
             ingredients={CardInfo[3].ingredients}
             servings={CardInfo[3].servings} 
+            category={CardInfo[3].category}
             />
              <Card
             imgMain={CardInfo[4].imgMain}
@@ -50,6 +54,7 @@ const Home = () => {
             minutes={CardInfo[4].minutes}
             ingredients={CardInfo[4].ingredients}
             servings={CardInfo[4].servings} 
+            category={CardInfo[4].category}
             />
             <Card
             imgMain={CardInfo[5].imgMain}
@@ -57,6 +62,7 @@ const Home = () => {
             minutes={CardInfo[5].minutes}
             ingredients={CardInfo[5].ingredients}
             servings={CardInfo[5].servings} 
+            category={CardInfo[5].category}
             />
             <Card
             imgMain=    {CardInfo[6].imgMain}
@@ -64,6 +70,7 @@ const Home = () => {
             minutes=    {CardInfo[6].minutes}
             ingredients={CardInfo[6].ingredients}
             servings=   {CardInfo[6].servings} 
+            category={CardInfo[6].category}
             />
             <Card
             imgMain=    {CardInfo[7].imgMain}
@@ -71,6 +78,7 @@ const Home = () => {
             minutes=    {CardInfo[7].minutes}
             ingredients={CardInfo[7].ingredients}
             servings=   {CardInfo[7].servings} 
+            category={CardInfo[7].category}
             />
             <Card
             imgMain=    {CardInfo[8].imgMain}

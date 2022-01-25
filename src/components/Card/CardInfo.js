@@ -15,56 +15,62 @@ const CardInfo = [
     {
         id: 1,
         imgMain: one,
-        title: "SALATA",
-        
+        title: "cezar",
+        description: "mazno, s proteini, s koja, no bez ushichki povtarqm bez ushickhite",
         minutes: "5 min",
         ingredients: "domat",
-        servings: "221"
+        servings: "221",
+        category: "salad"
     },
     {
         id: 2,
         imgMain: two,
-        title: "PRASE",
+        title: "pileshak supa",
         description: "mazno, s proteini, s koja, no bez ushichki povtarqm bez ushickhite",
         minutes: "115 min",
         ingredients: "prasence",
-        servings: "229"
+        servings: "229",
+        category: "supa"
     },
     {
         id: 3,
         imgMain: three,
-        title: "PRASE",
+        title: "bob",
         description: "mazno, s proteini, s koja, no bez ushichki povtarqm bez ushickhite",
         minutes: "115min",
         ingredients: "prasence",
-        servings: "229"
+        servings: "229",
+        category: "salad5"
     },
     {
         id: 4,
         imgMain: four,
-        title: "PRASE",
+        title: "krava",
         description: "mazno, s proteini, s koja, no bez ushichki povtarqm bez ushickhite",
         minutes: "115min",
         ingredients: "prasence",
-        servings: "229"
+        servings: "229",
+        category: "saladxx"
     },
     {
         id: 5,
         imgMain: five,
-        title: "PRASE",
+        title: "kafe",
         description: "mazno, s proteini, s koja, no bez ushichki povtarqm bez ushickhite",
         minutes: "115min",
         ingredients: "prasence",
-        servings: "229"
+        servings: "229",
+        category: "saladaa"
     },
     {
         id: 6,
         imgMain: six,
-        title: "PRASE",
+        title: "qhniq",
         description: "mazno, s proteini, s koja, no bez ushichki povtarqm bez ushickhite",
         minutes: "115min",
         ingredients: "prasence",
-        servings: "229"
+        servings: "229",
+        category: "salad54"
     },
     {
         id: 7,
@@ -73,7 +79,8 @@ const CardInfo = [
         description: "mazno, s proteini, s koja, no bez ushichki povtarqm bez ushickhite",
         minutes: "115min",
         ingredients: "prasence",
-        servings: "229"
+        servings: "229",
+        category: "salad344"
     },
     {
         id: 8,
@@ -82,7 +89,8 @@ const CardInfo = [
         description: "mazno, s proteini, s koja, no bez ushichki povtarqm bez ushickhite",
         minutes: "115min",
         ingredients: "prasence",
-        servings: "229"
+        servings: "229",
+        category: "saladaaas"
     },
     {
         id: 9,
@@ -91,7 +99,8 @@ const CardInfo = [
         description: "mazno, s proteini, s koja, no bez ushichki povtarqm bez ushickhite",
         minutes: "115min",
         ingredients: "prasence",
-        servings: "229"
+        servings: "229",
+        category: "salad88"
     },
     {
         id: 10,

@@ -15,6 +15,8 @@ import MainDish from './pages/recipes/Main-dish';
 import Soup from './pages/recipes/Soup';
 import Pastry from './pages/recipes/Pastry';
 import Salad from './pages/recipes/Salad';
+import ErrorPage from './pages/ErrorPage';
+
 
 
 function App() {
@@ -42,6 +44,9 @@ function App() {
        <Route path="/recipes/pastry" exact element={<Pastry/>} />
        <Route path="/recipes/salad" exact element={<Salad/>} />
        
+       <Route path="*" element={<ErrorPage/> } />
+          
+    
      </Routes>
      {/* <Footer /> */}
     </Router>
