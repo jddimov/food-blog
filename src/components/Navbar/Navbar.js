@@ -28,7 +28,7 @@ const Navbar = ( { toggle } ) => {
 
                 <NavMenu>
                 
-                    <div className='menu'>
+                    <div className='menu' >
                     {/* <NavLink  to="/recipes"  activeStyle> */}
                     
 
@@ -55,9 +55,9 @@ const Navbar = ( { toggle } ) => {
                          {/* </NavLink> */}
                          
                     </div>
-                    <div className='menu'><NavLink to="/inspire"  activeStyle>Вдъхнови се тук&nbsp;<FaAngleDown /></NavLink></div>
-                    <div className='menu'><NavLink to="/about"    activeStyle>За мен&nbsp;                        </NavLink></div>
-                    <div className='menu'><NavLink to="/contacts" activeStyle>Контакт&nbsp;                       </NavLink></div>
+                    <div className='menu' ><NavLink to="/inspire"  activeStyle>Вдъхнови се тук&nbsp;<FaAngleDown /></NavLink></div>
+                    <div className='menu' ><NavLink to="/about"    activeStyle>За мен&nbsp;                        </NavLink></div>
+                    <div className='menu' ><NavLink to="/contacts" activeStyle>Контакт&nbsp;                       </NavLink></div>
                 </NavMenu>
                 <Bars onClick={toggle} />
             </Nav>

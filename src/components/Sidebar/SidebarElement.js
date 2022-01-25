@@ -7,7 +7,7 @@ export const SidebarContainer = styled.aside`
     z-index: 9999;
     width: 100%;
     height: 100%;
-    background: white;
+    background-image: linear-gradient(to right, #ffedf6 ,  #ffdfb9);
     display: flex;
     flex-direction: column;
     top: 0;

@@ -30,7 +30,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 4px 6px;
+
 
     border: hidden;
     vertical-align: middle;
@@ -43,12 +43,9 @@
     font-weight: 700;
     vertical-align: middle;
     font-size: 14px;
-
   }
   
-  .menudd-trigger img {
-    border-radius: 90px;
-  }
+
   .menudd {
     /* background: #ffffff; */
      border:hidden;
