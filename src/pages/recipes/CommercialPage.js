@@ -13,22 +13,29 @@ const CommercialPage = () => {
 
   return <div>
 
-  <div>appetizer</div>
-  <div>appetizer</div>
-  <div>appetizer</div>
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
   
-  <div><h1>{CardInfo[id].title}</h1></div>
 
 
-  <div><img src={CardInfo     [id].imgMain} className='card-image'></img></div>
+
+  <div className='imageContainer'><img src={CardInfo     [id].imgMain} className='commCardImage'></img></div>
+
+  <div><p className='cardTitle'>{CardInfo[id].title}</p></div>
 
   <div className='infoContainer'>
-    <div className='information'>
+    <div className='infoBox'>
     <div>{CardInfo     [id].minutes}</div>
+    <div>|</div>
     <div>{CardInfo [id].ingredients}</div>
-    <div>{CardInfo    [id].servings} </div>
+    <div>|</div>
+    <div>{CardInfo    [id].servings}</div>
     </div>
   </div>
+
+
+  <div className='fullDescription'>{CardInfo    [id].description}</div>
   
 
   {/* <Card

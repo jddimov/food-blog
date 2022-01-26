@@ -47,20 +47,20 @@
   
 
   .menudd {
-    /* background: #ffffff; */
-     border:hidden;
+    border:hidden;
     box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
-     opacity: 1; 
-     visibility: hidden; 
+    opacity: 1; 
+    visibility: hidden; 
     transform: translateY(-20px);
     transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s;
     border-radius: 8px;
     background-image: linear-gradient(to right, #ffedf6 ,  #ffdfb9);
-  position: absolute;
-  top: 60px;
-  width: 15vw;
-  font-size: 130%;
+    position: absolute;
+    top: 60px;
+    width: 17vw;
+    font-size: 130%;
   }
+  
   .menudd a:hover {
       text-decoration: underline;
   }

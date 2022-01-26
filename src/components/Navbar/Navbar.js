@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'
 import { Nav, NavLink, Bars, NavMenu } from "./NavbarElements";
 import { Link } from 'react-router-dom'
-import { FaAngleDown } from "react-icons/fa";
+import { FaAngleDown, FaAngleRight } from "react-icons/fa";
 import "./Navbar.css"
 import { useDetectOutsideClick } from "./useDetectOutsideClick";
 
@@ -37,12 +37,12 @@ const Navbar = ( { toggle } ) => {
           
                             <nav ref={dropdownRef} className={`menudd ${dropDownIsActive ? "active" : "inactive"}`} >
                               <ul>
-                                <li><Link to="/food-blog/recipes/salad" >Салати</Link></li>
-                                <li><Link to="/food-blog/recipes/soup" >Супи</Link></li>
-                                <li><Link to="/food-blog/recipes/appetizer" >Предястия</Link></li>
-                                <li><Link to="/food-blog/recipes/main-dish" >Основни ястия</Link></li>
-                                <li><Link to="/food-blog/recipes/dessert" >Десерти</Link></li>
-                                <li><Link to="/food-blog/recipes/pastry" >Тестени изделия</Link></li>
+                                <li><Link to="/food-blog/recipes/salad" ><FaAngleRight />Салати</Link></li>
+                                <li><Link to="/food-blog/recipes/soup" ><FaAngleRight />Супи</Link></li>
+                                <li><Link to="/food-blog/recipes/appetizer" ><FaAngleRight />Предястия</Link></li>
+                                <li><Link to="/food-blog/recipes/main-dish" ><FaAngleRight />Основни ястия</Link></li>
+                                <li><Link to="/food-blog/recipes/dessert" ><FaAngleRight />Десерти</Link></li>
+                                <li><Link to="/food-blog/recipes/pastry" ><FaAngleRight />Тестени изделия</Link></li>
                               </ul>
                             </nav>
                           </div>

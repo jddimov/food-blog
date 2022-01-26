@@ -4,7 +4,7 @@ import { NavLink as Links } from "react-router-dom";
 
 export const SidebarContainer = styled.aside`
     position: fixed;
-    z-index: 9999;
+    z-index: 1100;
     width: 100%;
     height: 100%;
     background-image: linear-gradient(to right, #ffedf6 ,  #ffdfb9);
@@ -15,6 +15,9 @@ export const SidebarContainer = styled.aside`
     transition: 0.3s ease-in-out;
     opacity: ${({ isOpen}) => (isOpen ? '100%' : '0')};
     top: ${({ isOpen}) => (isOpen ? '0' : '-100%')};
+`
+export const Link = styled.div`
+    color: black;
 `
 
 export const CloseIcon = styled(FaTimes)`
@@ -35,9 +38,6 @@ export const Icon = styled.div`
     cursor: pointer;
     outline: none;
 `
-export const SidebarWrapper = styled.div`
-    color: red;
-`
 
 export const SidebarMenu = styled.ul`
     display: flex;
@@ -48,21 +48,15 @@ export const SidebarMenu = styled.ul`
 `
 
 export const SidebarLink = styled(Links)`
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
     font-size: 1.5rem;
     text-decoration: none;
-    line-style: none;
-    transition: 0.2s ease-in-out;
     color: black;
     cursor: pointer;
+    
 
     &:hover {
         color: #8c0608;
         text-decoration: underline;
-        transition: 0.2s ease-in-out;
-        
+        transition: 0.2s ease-in-out; 
     }
 `
