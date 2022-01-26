@@ -33,20 +33,20 @@ function App() {
      
      
      <Routes>
-       <Route path="/" exact element={<Home/>} />
-       <Route path="/recipes" exact element={<Recipes/>} />
-       <Route path="/inspire" exact element={<Inspire/>} />
-       <Route path="/about" exact element={<About/>} />
-       <Route path="/contacts" exact element={<Contacts/>} />
+       <Route path="/food-blog" exact element={<Home/>} />
+       <Route path="/food-blog/recipes" exact element={<Recipes/>} />
+       <Route path="/food-blog/inspire" exact element={<Inspire/>} />
+       <Route path="/food-blog/about" exact element={<About/>} />
+       <Route path="/food-blog/contacts" exact element={<Contacts/>} />
 
-       <Route path="/recipes/dessert" exact element={<Dessert/>} />
-       <Route path="/recipes/appetizer" exact element={<Appetizer/>} />
-       <Route path="/recipes/main-dish" exact element={<MainDish/>} />
-       <Route path="/recipes/soup" exact element={<Soup/>} />
-       <Route path="/recipes/pastry" exact element={<Pastry/>} />
-       <Route path="/recipes/salad" exact element={<Salad />} />
+       <Route path="/food-blog/recipes/dessert" exact element={<Dessert/>} />
+       <Route path="/food-blog/recipes/appetizer" exact element={<Appetizer/>} />
+       <Route path="/food-blog/recipes/main-dish" exact element={<MainDish/>} />
+       <Route path="/food-blog/recipes/soup" exact element={<Soup/>} />
+       <Route path="/food-blog/recipes/pastry" exact element={<Pastry/>} />
+       <Route path="/food-blog/recipes/salad" exact element={<Salad />} />
 
-       <Route path="/recipes/:category/:url" exact element={<CommercialPage />} />
+       <Route path="/food-blog/recipes/:category/:url" exact element={<CommercialPage />} />
        
        <Route path="*" element={<ErrorPage/> } />
           
