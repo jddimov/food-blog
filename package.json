@@ -1,6 +1,6 @@
 {
-  "homepage": "http://jddimov.github.io/blog-app",
-  "name": "blog-app",
+  "homepage": "http://jddimov.github.io/food-blog",
+  "name": "food-blog",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
