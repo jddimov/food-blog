@@ -12,8 +12,6 @@
 
 .carousel-caption {
     top: 75%;
-
-    font: xx-large;
     color:black;
     text-shadow: 1px 0px 2px white, -1px 0px 2px white, 0px 1px 2px white, 0px -1px 2px white;
 }

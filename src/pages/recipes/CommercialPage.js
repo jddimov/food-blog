@@ -31,12 +31,11 @@ const CommercialPage = () => {
 
 <div className='productsAndImage'>
   <div className='imageContainerProduct'><img src={CardInfo     [id].imgMain} className='commCardImageProduct'></img></div>
-  <div className='dangerousProduct' dangerouslySetInnerHTML={{__html: `${CardInfo[id].description}` }} />
+  <div className='dangerousProduct' dangerouslySetInnerHTML={{__html: `${CardInfo[id].products}` }} />
 </div>
 
-<div style={{ marginLeft: '5%'}}><u>ПРИГОТВЯНЕ:</u></div>
-<div className='detailDescription'>{CardInfo[id].products}</div>
-
+<div style={{ marginLeft: '5%', fontSize: '25px'}}><u>ПРИГОТВЯНЕ:</u></div>
+<div className='detailDescription' dangerouslySetInnerHTML={{__html: `${CardInfo[id].description}` }} />
 
   </div>;
 }

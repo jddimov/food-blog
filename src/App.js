@@ -56,8 +56,6 @@ function App() {
      </Routes>
      {/* <Footer /> */}
     </Router>
-    
-    w App js sym
     </div>
   );
 }

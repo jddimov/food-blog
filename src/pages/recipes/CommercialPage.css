@@ -89,5 +89,10 @@
 }
 
 .detailDescription {
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 90%;
     margin-left: 5%;
+    font-size: 25px;
 }
