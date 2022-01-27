@@ -19,7 +19,7 @@ return (
 			src={one}
 			alt="Image One"
 		/></Link>
-		<Carousel.Caption className='text'>
+		<Carousel.Caption className='textCarousel'>
 			<h3>Т-боун стек от блек ангъс</h3>
 		</Carousel.Caption>
 		</Carousel.Item>
@@ -30,7 +30,7 @@ return (
 			src={two}
 			alt="Image Two"
 		/></Link>
-		<Carousel.Caption className='text'>
+		<Carousel.Caption className='textCarousel'>
 			<h3>Лава кейк с белгийски шоколад</h3>
 		</Carousel.Caption>
 		</Carousel.Item>
@@ -41,7 +41,7 @@ return (
 			src={three}
 			alt="Image Two"
 		/></Link>
-		<Carousel.Caption className='text'>
+		<Carousel.Caption className='textCarousel'>
 			<h3>Хрупкава дърпана баница</h3>
 		</Carousel.Caption>
 		</Carousel.Item>
@@ -52,7 +52,7 @@ return (
 			src={four}
 			alt="Image Two"
 		/></Link>
-		<Carousel.Caption className='text'>
+		<Carousel.Caption className='textCarousel' style={{fontSize: '100px'}}>
 			<h3>Печено пиле по китайски</h3>
 		</Carousel.Caption>
 		</Carousel.Item>
