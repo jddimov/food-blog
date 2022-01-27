@@ -15,13 +15,14 @@ const CardInfo = [
     {
         id: 0,
         imgMain: one,
-        url: "cezar",
-        title: "цезар",
-        description: "mazno, s proteini, s koja, no bez ushichki povtarqm bez ushickhite",
-        minutes: "5 min",
-        ingredients: "domat",
-        servings: "999",
-        category: "appetizer"
+        url: "cheesecake-raspberry",
+        title: "Чийзкейк със сладко от малини",
+        description: "За блата:<br><br>&#8220 200 гр обикн<br> <a href= https://jddimov.github.io/food-blog/recipes/soup/chicken >Тази рецепта</a>Тестени изделия</Link><br>овени /бисквиити<br>120 гр масло<br>За крема<br>4 яйца<br>6 пакетчета българско крема сирене",
+        // products: "",
+        minutes: "70 мин",
+        ingredients: "7",
+        servings: "12",
+        category: "dessert"
     },
     {
         id: 1,

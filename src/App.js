@@ -47,6 +47,8 @@ function App() {
        <Route path="/food-blog/recipes/salad" exact element={<Salad />} />
 
        <Route path="/food-blog/recipes/:category/:url" exact element={<CommercialPage />} />
+       <Route path="https://jddimov.github.io/food-blog/recipes/:category/:url" exact element={<CommercialPage />} />
+
        
        <Route path="*" element={<ErrorPage/> } />
           
