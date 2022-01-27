@@ -13,25 +13,24 @@ function Card(props) {
                 
 
                 <div >
-                {/* <Link to="/recipes/salad/"> */}
                 <Link to={`/food-blog/recipes/${props.category}/${props.url}/`}>
                 <img src={props.imgMain} className='cardImage'></img></Link>
                 </div>
 
-                <div className='card-content'>
-                <div className='card-title'><h2>{props.title}</h2></div>
+                <div className='cardContent'>
+                <div className='cardTitleMain'>{props.title}</div>
                 
                 
                 <div className='icons'>
-                <div><FaRegClock style={{height: "25px", width: "25px" }}/> </div>
-                <div><img src={book} style={{ height: "25px", width: "25px"}} /></div>
-                <div><img src={serving} style={{ height: "25px", width: "25px"}} /></div>
+                <div><FaRegClock        style={{ height: "26px", width: "26px" }}/> </div>
+                <div><img src={book}    style={{ height: "26px", width: "26px" }} /></div>
+                <div><img src={serving} style={{ height: "26px", width: "26px" }} /></div>
                 
 
                 
-                <div>{props.minutes}</div>
-                <div>{props.ingredients}</div>
-                <div>{props.servings}</div>
+                <div style={{fontSize: '20px'}}>{props.minutes}</div>
+                <div style={{fontSize: '20px'}}>{props.ingredients}</div>
+                <div style={{fontSize: '20px'}}>{props.servings}</div>
                 
                 </div>
 

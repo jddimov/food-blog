@@ -34,8 +34,8 @@ const CommercialPage = () => {
   <div className='dangerousProduct' dangerouslySetInnerHTML={{__html: `${CardInfo[id].description}` }} />
 </div>
 
-<div><u>ПРИГОТВЯНЕ:</u></div>
-<div>{CardInfo[id].products}</div>
+<div style={{ marginLeft: '5%'}}><u>ПРИГОТВЯНЕ:</u></div>
+<div className='detailDescription'>{CardInfo[id].products}</div>
 
 
   </div>;
