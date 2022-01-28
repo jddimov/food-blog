@@ -19,6 +19,7 @@ function Card(props) {
 
                 <div className='cardContent'>
                 <div className='cardTitleMain'>{props.title}</div>
+
                 
                 
                 <div className='icons'>

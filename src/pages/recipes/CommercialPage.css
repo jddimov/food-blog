@@ -32,6 +32,8 @@
     margin-bottom: 10px;
     margin-top: 10px;
     font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 
@@ -88,6 +90,7 @@
     height: 50%;
 }
 
+
 .detailDescription {
     display: flex;
     flex-wrap: wrap;
@@ -95,4 +98,5 @@
     width: 90%;
     margin-left: 5%;
     font-size: 25px;
-}
+} 
+

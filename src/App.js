@@ -25,7 +25,7 @@ function App() {
   const toggle = () => { setIsOpen(!isOpen) };
 
   return (
-    <div style={{ background: "#ffeeed" }}>
+    <div>
     
     <Router>
      <Navbar  toggle={toggle} />
@@ -50,12 +50,16 @@ function App() {
        <Route path="https://jddimov.github.io/food-blog/recipes/:category/:url" exact element={<CommercialPage />} />
 
        
+
+
+       
        <Route path="*" element={<ErrorPage/> } />
           
     
      </Routes>
      {/* <Footer /> */}
     </Router>
+
     </div>
   );
 }
