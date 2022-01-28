@@ -1,6 +1,6 @@
 .card-container {
-    width: 230px;
-    height: 410px;
+    width: 270px;
+    height: 430px;
     overflow: hidden;
     box-shadow: 0px 0px 15px -5px;
     transition: 0.3s;
@@ -15,12 +15,18 @@
 
 .cardImage {
     object-fit: cover;
-    width: 230px;
+    width: 270px;
     height: 230px;
 }
 
-.card-content {
-    margin: 0.3rem;
+.cardContent {
+    margin: 0.5rem;
+
+}
+.cardTitleMain {
+    font-size: 25px;
+    line-height: 100%;
+    min-height: 50px;
 }
 
 .card-btn {
@@ -48,9 +54,9 @@
     margin-top: 15px;
     display: grid;
     justify-items: center;
-    grid-template-columns: 50px 50px 50px;
+    grid-template-columns: 60px 60px 60px;
     grid-template-rows: 30px 30px;
-    column-gap: 35px;
+    column-gap: 30px;
     row-gap: 1px;
 }
 

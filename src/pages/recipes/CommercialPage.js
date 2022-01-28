@@ -1,9 +1,8 @@
 import React from 'react';
 import { useParams } from "react-router-dom"
-import Card from '../../components/Card/Card';
 import CardInfo from '../../components/Card/CardInfo';
 import "./CommercialPage.css"
-import { Link } from 'react-router-dom'
+
 
 const CommercialPage = () => {
     const { category } = useParams();
@@ -20,30 +19,25 @@ const CommercialPage = () => {
 
   <div><p className='cardTitle'>{CardInfo[id].title}</p></div>
 
-  <div dangerouslySetInnerHTML={{__html: `${CardInfo[id].description}` }} />
-
   <div className='infoContainer'>
     <div className='infoBox'>
     <div>{CardInfo     [id].minutes}</div>
     <div>|</div>
-    <div>{CardInfo [id].ingredients}</div>
+    <div>{CardInfo [id].ingredients} съставки</div>
     <div>|</div>
-    <div>{CardInfo    [id].servings}</div>
+    <div>{CardInfo    [id].servings} порции</div>
     </div>
   </div>
 
+<div className='productsAndImage'>
+  <div className='imageContainerProduct'><img src={CardInfo     [id].imgMain} className='commCardImageProduct'></img></div>
+  <div className='dangerousProduct' dangerouslySetInnerHTML={{__html: `${CardInfo[id].products}` }} />
+</div>
 
-  <div className='fullDescription'>{CardInfo    [id].description}</div>
-  
+<div style={{ marginLeft: '5%', fontSize: '25px'}}><u>ПРИГОТВЯНЕ:</u></div>
+<div className='detailDescription' dangerouslySetInnerHTML={{__html: `${CardInfo[id].description}` }} />
 
-  {/* <Card
-            imgMain={CardInfo     [id].imgMain}
-            title={CardInfo       [id].title}
-            minutes={CardInfo     [id].minutes}
-            ingredients={CardInfo [id].ingredients}
-            servings={CardInfo    [id].servings} 
-            category={CardInfo    [id].category}
-            /> */}
+<div></div><div></div><div></div><div></div><div></div>
   </div>;
 }
 
