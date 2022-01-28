@@ -1,26 +1,20 @@
-import one from "./pictures/izbrani/(1).jpg";
-import two from "./pictures/izbrani/(2).jpg";
-import three from "./pictures/izbrani/(3).jpg";
-import four from "./pictures/izbrani/(4).jpg";
-import five from "./pictures/izbrani/(5).jpg";
-import six from "./pictures/izbrani/(6).jpg";
-import seven from "./pictures/izbrani/(7).jpg";
-import eight from "./pictures/izbrani/(8).jpg";
-import nine from "./pictures/izbrani/(9).jpg";
-import ten from "./pictures/izbrani/(10).jpg";
-import eleven from "./pictures/izbrani/(11).jpg";
-import twelve from "./pictures/izbrani/(12).jpg";
+import cheesecakeRaspberry from "./pictures/izbrani/cheesecake-raspberry.jpg";
+import bruschettaMix from "./pictures/izbrani/bruschetta-mix.jpg";
+import bananaPancakes from "./pictures/izbrani/banana-pancakes.jpg";
+import sweetBread from "./pictures/izbrani/sweet-bread.jpg";
+import tBoneSteak from "./pictures/izbrani/t-bone-steak.jpg";
+import chocolateSouffle from "./pictures/izbrani/chocolate-souffle.jpg";
+
+// https://www.shutterstock.com/image-resizer
 
 const CardInfo = [
     {
         id: 0,
-        imgMain: one,
+        imgMain: cheesecakeRaspberry,
         url: "cheesecake-raspberry",
         title: "Чийзкейк със сладко от малини",
-
-        description: "За блата:<br><br>&#8220 200 г0 200 гр обик0 200 гр обикн0 200 гр обикн0 200 гр обикн0 200 гр обикн0 200 гр обикн0 200 гр обикн0 200 гр обикн0 200 гр обикнн0 200 гр обикн0 200 гр обикн0 200 гр обикн0 200 гр обикн0 200 гр обикнр обикн<br> <a href= https://jddimov.github.io/food-blog/recipes/soup/chicken >Тази рецепта</a>Тестени изделия</Link><br>овенвени /бисквиитвени /бисквиитвени /бисквиитвени /бисквиитвени /бисквиитвени /бисквиитвени /бисквиитвени /бисквиитвени /бисквиитвени /бисквиитвени /бисквиитвени /бисквиитвени /бисквиитвени /бисквиитвени /бисквиитвени /бисквиитвени /бисквиитвени /бисквиитвени /бисквиитвени /бисквиитвени /бисквиитвени /бисквиитвени /бисквиитвени /бисквиити /бисквиити<br>120 гр масло<br>За крема<br>4 яйца<br>6 пакетчета българско крема сирене",
-        products: "0 200<br><br>0 200 гр обик0 200 гр обикн0 200 гр0 200 гр обик0 200 гр обикн0 200 гр0 200 гр обик0 200 гр обикн0 200 гр0 200 гр обик0 200 гр обикн0 200 гр0 200 гр обик0 200 гр обикн0 200 гр0 200 гр обик0 200 гр обикн0 200 гр<hr>0 200 гр обик0 200 гр обикн0 200 гр0 200 гр обик0 200 гр обикн0 200 гр0 200 гр обик0 200 гр обикн0 200 гр0 200 гр обик0 200 гр обикн0 200 гр<hr>ds гр обик0 200 гр обикн0 200 гр0 0 200 гр обик0 200 гр обикн0 200 гр0 200 гр обик0 200 гр обикн0 200 гр0 200 гр обик0 200 гр обикн0 200 гр0 200 гр обик0 200 гр обикн0 200 гр0 200 гр обик0 200 гр обикн0 200 гр0 200 гр обик0 200 гр обикн0 200 гр0 200 гр обик0 200 гр обикн0 200 гр0 200 гр обик0 200 гр обикн0 200 гр0 200 гр обик0 200 гр обикн0 200 гр0 200 гр обик0 200 гр обикн0 200 гр0 200 гр обик0 200 гр обикн0 200 гр200 гр обик0 200 гр обикн0 200 гр",
-
+        products: "<u>Необходими продукти: </u> <br> <br> За блата: <br> &nbsp&nbsp-200 гр обикновени бисквити<br>&nbsp&nbsp-120 гр масло<br><br>За крема: <br>&nbsp&nbsp-4 яйца<br>&nbsp&nbsp-6 пакетчета българско крема сирене<br>&nbsp&nbsp-150 гр захар<br>&nbsp&nbsp-1 пакетче ванилия<br>&nbsp&nbsp-Сладко от малини/ боровинки или друг плод",
+        description: "Чийзкейкът е един от най-популярните десерти. Има толкова много вариации - с шоколад, с боровинково сладко, с печене, без печене, но основните продукти са крема сиренето, маслото и бисквитите. <br>Тази рецепта е една от най- лесни за мен и една от най-вкусните. А ето я и самата нея: <br><br>Приготвяне: <br><br>Разтопете маслото или в микровълнова фурна или на водна баня. Разбийте в блендер или на ръка бисквитите и след като станат на трохи добавете маслото при тях и разбъркайте. В тавата, която ще печете чийзкейка, изсипете бисквитите и притиснете хубаво, за да  залепнат на дъното. Докато приготвяте крема, оставете тавата в хладилника, за да може да стегне. <br>Загрейте фурната на 180 гр. без вентилатор. <br> За крема разбийте захарта и яйцата с миксер. След като захарта се разтопи, добавете крема сиренето и продължете да разбивате, а след това добавете и ванилията. <br> Извадете от хладилника вече стегналия блат и изсипете крема при него. Пече се за около 30-40 мин зависимост от вашата фурна. Готов е, когато краищата са стегнали, а в средата леко мърда. След като го извадите от фурната, изчакайте да изстине напълно и изсипете сладкото. Отново върнете в хладилника до пълното му стягане. Бих препоръчала 24 часа, ако може да издържите.",
         minutes: "70 мин",
         ingredients: "7",
         servings: "12",
@@ -28,111 +22,75 @@ const CardInfo = [
     },
     {
         id: 1,
-        imgMain: two,
-        url: "chicken",
-        title: "пилешка",
-        description: "mazno, s proteini, s koja, no bez ushichki povtarqm bez ushickhite",
-        minutes: "115 min",
-        ingredients: "prasence",
-        servings: "229",
-        category: "soup"
+        imgMain: bruschettaMix,
+        url: "bruschetta-mix",
+        title: "Микс от брускети",
+        products: "<u>Необходими продукти: </u> <br> <br>&nbsp&nbsp-Франзела или друг вид хлебче<br>&nbsp&nbsp-домати <br>&nbsp&nbsp-гъби <br>&nbsp&nbsp- прошуто <br>&nbsp&nbsp-крема сирене <br>&nbsp&nbsp- тиквени семки <br>&nbsp&nbsp-авокадо<br>&nbsp&nbsp- босилек <br>&nbsp&nbsp-маслини <br>&nbsp&nbsp-сол<br>&nbsp&nbsp-балсамико <br>&nbsp&nbsp-зехтин",
+        description: "Представям ви едно чудесно предястие или пък защо не и закуска. <br><br>1.Брускета със сирене, домат и босилек. Натрошете сирене и отгоре сложете малко розов домат. Завършете с лист босилек, капка зехтин и щипка сол. <br> 2. Брускета с авокадо сирене и тиквени семки. Намачкайте едно авокадо, отгоре сложете сирене и отново завършете с капка зехтин, щипка сол и поръсете с тиквени семки.<br>3.Брускета с прошуто. Накъсайте прошуто и го наредете върху брускетата. 4. Брускета с домат, сирене и маслини. В отделна купичка нарежете на малки кубчета маслини, домат, босилек и сирене. Овкусете ги с червен балсамико, зехтин и сол. <br>5.Брускета с гъби и крема сирене. Гъбите ги обелих и запържих в малко масло, когато придобият хубав, златист загар са готови. Намажете брускетата с крема сирене и сложете няколко гъбки. <br><br>Може да използвате най - различни комбинации. Развихрете се.",
+        minutes: "15 мин",
+        ingredients: "12",
+        servings: "5",
+        category: "appetizer"
     },
     {
         id: 2,
-        imgMain: three,
-        title: "bob a",
-        description: "mazno, s proteini, s koja, no bez ushichki povtarqm bez ushickhite",
-        minutes: "115min",
-        ingredients: "prasence",
-        servings: "229",
-        category: "salad5"
+        imgMain: bananaPancakes,
+        url: "banana-pancakes",
+        title: "Бананови палачинки",
+        products: "<u>Необходими продукти: </u> <br> <br>&nbsp&nbsp-1 бр банан <br>&nbsp&nbsp-2 яйца<br>&nbsp&nbsp-канела <br>&nbsp&nbsp-ванилия <br>&nbsp&nbsp-масло краве/кокосово/какаово за намазване на тиган ",
+        description: "Банановите палачинки стават за малки и големи и са доста хранителни и вкусни. Има най-различни рецепти за този вид палачинки и аз ще ви представя моята. <br><br>Загрейте тигана. <br>Намачкайте банана с вилица( не използвайте миксер, защото сместа ще стане прекалено течна) и добавете 2 яйца. След като ги разбъркате, добавете щипка канела и ванилия. <br>В тигана сложете масло по избор и намалете котлона. Ако искате да направите малки палачинки, то тогава използвайте супена лъжица, като взимате от сместа и слагате в тигана. Когато са по - малки палачинките се обръщат по - лесно и не се разпадат. Изчакайте да станат готови преди да ги обърнете. <br>Гарнирайте ги по избор. Моята любима комбинация е с мед и фъстъчено масло.",
+        minutes: "20 мин",
+        ingredients: "5",
+        servings: "1",
+        category: "dessert"
     },
     {
         id: 3,
-        imgMain: four,
-        title: "krava",
-        description: "mazno, s proteini, s koja, no bez ushichki povtarqm bez ushickhite",
-        minutes: "115min",
-        ingredients: "prasence",
-        servings: "229",
-        category: "saladxx"
+        imgMain: sweetBread,
+        url: "sweet-bread",
+        title: "Великденски козунак",
+        products: "<u>Необходими продукти: </u> <br> <br>&nbsp&nbsp-3 яйца на стайна температура <br>&nbsp&nbsp-150 гр захар <br>&nbsp&nbsp-50 гр масло <br>&nbsp&nbsp-50 мл олио <br>&nbsp&nbsp-кората от ½ лимон, 1/2 портокал и 1/2лайм <br>&nbsp&nbsp-21 гр жива мая <br>&nbsp&nbsp-125 мл прясно мляко <br>&nbsp&nbsp-500 гр брашно предварително пресято няколко пъти <br>&nbsp&nbsp-1 щипа сол <br>&nbsp&nbsp-Пълнеж за козунака пожелание",
+        description: "Няма да ви лъжа доста е трудоемко да замесиш хубав козунак, но пък си заслужава. На мен ми се получи може би от третия път. Три пъти за щастие както се казва. <br><br>Тези продукти са за 1 брой по-голям козунак. <br>Прясното мляко се затопля леко и се добавя маята с 1 с.л. брашно и 1 с.л. захар и се оставя да шупне за около 15-20 мин. <br>Яйцата и захарта се разбиват и след като се разтопи захарта се добавят корите от лимон, лайм и портокал. В брашното добавете солта и смесете с яйцата и захарта. Трябва да месите около 20 минути и може да удряте в масата самото тесто, за да може да се смесят по-добре продуктите. Ако тестото е много лепкаво добавете малко брашно, но не прекалявайте, за да не стане прекалено твърдо. След това започваме да добавяме по малко от разтопеното масло и олиото и да месим докато се поеме цялата мазнина. Трябва да втаса около 2 часа и 30 мин до 3 часа на стайна температура, покрито с фолио и кърпа, за да не изсъхва. Наблюдавайте го. <br><br>След като втаса идва ред на финалното оформяне, може да го оставите без пълнеж, с пълнеж от шоколад или мармалад или с ядки и сушени плодове. Разделете го на 3 равни части и ако няма да му слагате пълнеж го направете на плитка. Ако слагате ядки и сушени плодове, размесете го хубаво с тях, докато ги поеме и отново разделете на 3 части и направете плитка. Ако изберете варианта с шоколад например, разделете на 3 равни части и ги разточете. Може да го разточите на много тънко ако искате да има повече шоколад. Завийте, така че да не излезе шоколада и заплетете на плитка. Оставете за повторно втасване за 30 мин. Когато втаса се намазва с разбит жълтък и малко прясно мляко и се поръсва със захар. Пече се в предварително загрята фурна на 180 гр за 25- 30 мин. При нужда се слага фолио и се допича отдолу.",
+        minutes: "300 мин",
+        ingredients: "11",
+        servings: "8",
+        category: "pastry"
     },
     {
         id: 4,
-        imgMain: five,
-        title: "kafe",
-        description: "mazno, s proteini, s koja, no bez ushichki povtarqm bez ushickhite",
-        minutes: "115min",
-        ingredients: "prasence",
-        servings: "229",
-        category: "saladaa"
+        imgMain: tBoneSteak,
+        url: "t-bone-steak",
+        title: "Т-боун стек",
+        products: "<u>Необходими продукти: </u> <br> <br>&nbsp&nbsp- 1 бр стек  <br>&nbsp&nbsp- 4-5 скилдики чесън  <br>&nbsp&nbsp- 30 мл олио <br>&nbsp&nbsp- 50 грама масло <br>&nbsp&nbsp- 4-5- клонки розмарин <br>&nbsp&nbsp- сол <br>&nbsp&nbsp- черен пипер  <a href= https://jddimov.github.io/food-blog/recipes/soup/chicken ><br>&nbsp&nbsp- розмаринова сол </a>",
+        description: "За един истински добър стек, най-важното е качественото месо. Ако искате да се топи в устата ви, то ви препоръчвам да изберете силно мраморизиран. За крехко месо изберете порода теле, което е месодайна порода. Ако е изсушен- още по-добре. <br><br>Преди да работите с месото го извадете от хладилника поне 20 мин предварително, за да се темперира. Загрейте тигана на максимална степен и изчакайте да се нагрее хубаво. Овкусете пържолата от двете страни със сол, черен пипер и розмариновата сол. В тигана сложете ½ от маслото и цялото олиото. След като се разтопи маслото сложете пържолата, ½ от чесъна и розмарина. В зависимост от дебелината на стека и това колко изпечено искате да бъде, оставете го в тигана 3-6 мин. Обърнете го, сложете и останалите съставки и започнете да го поливате с новото разтопено масло. Когато е готово, го оставете да си почине в чиния около 5 минути, като оставите под него вилица или лъжица, за да не ляга изяло върху чинията. Месото не се реже веднага, за да не му изтекат всички сокове.",
+        minutes: "20 мин",
+        ingredients: "8",
+        servings: "1",
+        category: "main-dish"
     },
     {
         id: 5,
-        imgMain: six,
-        title: "qhniq",
-        description: "mazno, s proteini, s koja, no bez ushichki povtarqm bez ushickhite",
-        minutes: "115min",
-        ingredients: "prasence",
-        servings: "229",
-        category: "salad54"
+        imgMain: chocolateSouffle,
+        url: "chocolate-souffle",
+        title: "Шоколадово суфле",
+        products: "",
+        description: "",
+        minutes: "70 мин",
+        ingredients: "10",
+        servings: "6",
+        category: "dessert"
     },
     {
-        id: 7,
-        imgMain: seven,
-        title: "PRASE",
-        description: "mazno, s proteini, s koja, no bez ushichki povtarqm bez ushickhite",
-        minutes: "115min",
-        ingredients: "prasence",
-        servings: "229",
-        category: "salad344"
-    },
-    {
-        id: 8,
-        imgMain: eight,
-        title: "PRASE",
-        description: "mazno, s proteini, s koja, no bez ushichki povtarqm bez ushickhite",
-        minutes: "115min",
-        ingredients: "prasence",
-        servings: "229",
-        category: "saladaaas"
-    },
-    {
-        id: 9,
-        imgMain: nine,
-        title: "PRASE",
-        description: "mazno, s proteini, s koja, no bez ushichki povtarqm bez ushickhite",
-        minutes: "115min",
-        ingredients: "prasence",
-        servings: "229",
-        category: "salad88"
-    },
-    {
-        id: 10,
-        imgMain: ten,
-        title: "PRASE",
-        description: "mazno, s proteini, s koja, no bez ushichki povtarqm bez ushickhite",
-        minutes: "115min",
-        ingredients: "prasence",
-        servings: "229"
-    },
-    {
-        id: 11,
-        imgMain: eleven,
-        title: "PRASE",
-        description: "mazno, s proteini, s koja, no bez ushichki povtarqm bez ushickhite",
-        minutes: "115min",
-        ingredients: "prasence",
-        servings: "229"
-    },
-    {
-        id: 12,
-        imgMain: twelve,
-        title: "PRASE",
-        description: "mazno, s proteini, s koja, no bez ushichki povtarqm bez ushickhite",
-        minutes: "115min",
-        ingredients: "prasence",
-        servings: "229"
+        id: 4,
+        imgMain: tBoneSteak,
+        url: "",
+        title: "",
+        products: "",
+        description: "",
+        minutes: "",
+        ingredients: "",
+        servings: "",
+        category: ""
     }
 ]
 
