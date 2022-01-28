@@ -17,6 +17,7 @@ import Pastry from './pages/recipes/Pastry';
 import Salad from './pages/recipes/Salad';
 import ErrorPage from './pages/ErrorPage';
 import CommercialPage from './pages/recipes/CommercialPage';
+import Footer from './components/Footer/Footer';
 
 
 
@@ -28,6 +29,7 @@ function App() {
     <div>
     
     <Router>
+
      <Navbar  toggle={toggle} />
      <Sidebar toggle={toggle} isOpen={isOpen}/>
      
@@ -49,15 +51,13 @@ function App() {
        <Route path="/food-blog/recipes/:category/:url" exact element={<CommercialPage />} />
        <Route path="https://jddimov.github.io/food-blog/recipes/:category/:url" exact element={<CommercialPage />} />
 
-       
-
-
-       
        <Route path="*" element={<ErrorPage/> } />
           
     
      </Routes>
-     {/* <Footer /> */}
+
+     <Footer />
+
     </Router>
 
     </div>

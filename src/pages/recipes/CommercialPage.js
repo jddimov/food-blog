@@ -1,6 +1,7 @@
 import React from 'react';
 import { useParams } from "react-router-dom"
 import CardInfo from '../../components/Card/CardInfo';
+import Footer from '../../components/Footer/Footer';
 import "./CommercialPage.css"
 
 
@@ -9,13 +10,13 @@ const CommercialPage = () => {
     const { url } = useParams();
     const id = CardInfo.findIndex(x => x.category === category && x.url === url )
 
-  return <div>
+  return <div className='commercialPageContainer'>
 
   <div>1</div>
   <div>2</div>
   <div>3</div>
 
-  <div className='imageContainer'><img src={CardInfo     [id].imgMain} className='commCardImage'></img></div>
+  {/* <div className='imageContainer'><img src={CardInfo     [id].imgMain} className='commCardImage'></img></div> */}
 
   <div><p className='cardTitle'>{CardInfo[id].title}</p></div>
 
@@ -34,8 +35,10 @@ const CommercialPage = () => {
   <div className='dangerousProduct' dangerouslySetInnerHTML={{__html: `${CardInfo[id].products}` }} />
 </div>
 
-<div style={{ marginLeft: '5%', fontSize: '25px'}}><u>ПРИГОТВЯНЕ:</u></div>
+<div style={{ marginLeft: '5%', fontSize: '25px', marginTop: '5%'}}><u>ПРИГОТВЯНЕ:</u></div>
 <div className='detailDescription' dangerouslySetInnerHTML={{__html: `${CardInfo[id].description}` }} />
+
+
 
   </div>;
 }

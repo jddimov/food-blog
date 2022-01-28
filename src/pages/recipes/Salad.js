@@ -5,16 +5,11 @@ import Card from '../../components/Card/Card'
 
 const Salad = () => {
   return <div>
-  <div>salatki cezat grycka tui onui   </div>
-  <div>salatki cezat grycka tui onui   </div>
-  <div>salatki cezat grycka tui onui   </div>
-  <div>salatki cezat grycka tui onui   </div>
-  <div>salatki cezat grycka tui onui    5</div>
-  <div>salatki cezat grycka tui onui   </div>
-  <div>salatki cezat grycka tui onui   </div>
-  <div>salatki cezat grycka tui onui   </div>
-  <div>salatki cezat grycka tui onui   </div>
-  <div>salatki cezat grycka tui onui    10</div>
+  <div>1   </div>
+  <div>2  </div>
+  <div>3   </div>
+
+  <div className='cards-container'>
             <Card
             imgMain={CardInfo[1].imgMain}
             title={CardInfo[1].title}
@@ -32,6 +27,8 @@ const Salad = () => {
             servings={CardInfo[0].servings} 
             category={CardInfo[0].category}
             />
+
+            </div>
   </div>;
 }
 
