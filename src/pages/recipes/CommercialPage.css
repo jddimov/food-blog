@@ -64,7 +64,10 @@
         width: 100%;
         height: 80%;
         margin: 0;
-    }}
+    }
+}
+
+
 .dangerousProduct{
     font-size: 25px;
     margin-left: 5%;
@@ -73,9 +76,12 @@
     .dangerousProduct{
         margin-top: 15%;
         margin-left: 5%;
-    }}
+    }
+}
+
+
 .imageContainerProduct {
-    width: 60%;
+    width: 50%;
     height: 60%;
 }
 @media  screen and (max-width: 1128px) {
@@ -83,7 +89,10 @@
     width: 100%;
     height: 100%;
     margin: 0;
-    }}
+    }
+}
+
+
 .commCardImageProduct {
     object-fit: cover;
     width: 100%;
