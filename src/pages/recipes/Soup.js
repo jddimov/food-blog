@@ -1,5 +1,4 @@
 import React from 'react';
-import { useParams } from "react-router-dom"
 import Card from '../../components/Card/Card';
 import CardInfo from '../../components/Card/CardInfo';
 
@@ -12,13 +11,27 @@ const Soup = () => {
 
   <div className='cards-container'>
   <Card
-  imgMain=    {CardInfo[3].imgMain}
-  title=      {CardInfo[3].title}
-  minutes=    {CardInfo[3].minutes}
-  ingredients={CardInfo[3].ingredients}
-  servings=   {CardInfo[3].servings} 
-  category=   {CardInfo[3].category}
-  /></div>
+  id=         {CardInfo[9].id}
+  imgMain=    {CardInfo[9].imgMain}
+  url=        {CardInfo[9].url}
+  title=      {CardInfo[9].title}
+  minutes=    {CardInfo[9].minutes}
+  ingredients={CardInfo[9].ingredients}
+  servings=   {CardInfo[9].servings} 
+  category=   {CardInfo[9].category}
+  />
+  <Card
+  id=         {CardInfo[11].id}
+  imgMain=    {CardInfo[11].imgMain}
+  url=        {CardInfo[11].url}
+  title=      {CardInfo[11].title}
+  minutes=    {CardInfo[11].minutes}
+  ingredients={CardInfo[11].ingredients}
+  servings=   {CardInfo[11].servings} 
+  category=   {CardInfo[11].category}
+  />
+  
+  </div>
 
   </div>;
 }
