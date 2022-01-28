@@ -5,33 +5,12 @@ import Card from '../../components/Card/Card'
 
 const Salad = () => {
   return <div>
-  <div>salatki cezat grycka tui onui   </div>
-  <div>salatki cezat grycka tui onui   </div>
-  <div>salatki cezat grycka tui onui   </div>
-  <div>salatki cezat grycka tui onui   </div>
-  <div>salatki cezat grycka tui onui    5</div>
-  <div>salatki cezat grycka tui onui   </div>
-  <div>salatki cezat grycka tui onui   </div>
-  <div>salatki cezat grycka tui onui   </div>
-  <div>salatki cezat grycka tui onui   </div>
-  <div>salatki cezat grycka tui onui    10</div>
-            <Card
-            imgMain={CardInfo[1].imgMain}
-            title={CardInfo[1].title}
-            minutes={CardInfo[1].minutes}
-            ingredients={CardInfo[1].ingredients}
-            servings={CardInfo[1].servings} 
-            category={CardInfo[1].category}
-            />
+  <div>1   </div>
+  <div>2  </div>
+  <div>3   </div>
 
-            <Card
-            imgMain={CardInfo[0].imgMain}
-            title={CardInfo[0].title}
-            minutes={CardInfo[0].minutes}
-            ingredients={CardInfo[0].ingredients}
-            servings={CardInfo[0].servings} 
-            category={CardInfo[0].category}
-            />
+  salati nqma vse oshte
+
   </div>;
 }
 
