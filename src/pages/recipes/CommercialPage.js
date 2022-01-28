@@ -37,7 +37,6 @@ const CommercialPage = () => {
 <div style={{ marginLeft: '5%', fontSize: '25px'}}><u>ПРИГОТВЯНЕ:</u></div>
 <div className='detailDescription' dangerouslySetInnerHTML={{__html: `${CardInfo[id].description}` }} />
 
-<div></div><div></div><div></div><div></div><div></div>
   </div>;
 }
 
