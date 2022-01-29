@@ -18,20 +18,25 @@ const CommercialPage = () => {
 
   {/* <div className='imageContainer'><img src={CardInfo     [id].imgMain} className='commCardImage'></img></div> */}
 
-  <div><p className='cardTitle'>{CardInfo[id].title}</p></div>
+  <div><p className='cardTitle'><u style={{ textDecorationThickness: '3px' }}>{CardInfo[id].title}</u></p></div>
 
   <div className='infoContainer'>
     <div className='infoBox'>
     <div>{CardInfo     [id].minutes}</div>
-    <div>|</div>
+
+    <div className='testOfBorders'>&nbsp;</div>
+    
     <div>{CardInfo [id].ingredients} съставки</div>
-    <div>|</div>
+
+    <div className='testOfBorders'>&nbsp;</div>
+
     <div>{CardInfo    [id].servings} порции</div>
     </div>
   </div>
 
 <div className='productsAndImage'>
   <div className='imageContainerProduct'><img src={CardInfo     [id].imgMain} className='commCardImageProduct'></img></div>
+  
   <div className='dangerousProduct' dangerouslySetInnerHTML={{__html: `${CardInfo[id].products}` }} />
 </div>
 

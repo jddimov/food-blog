@@ -39,6 +39,16 @@ const Pastry = () => {
             servings=   {CardInfo[10].servings} 
             category=   {CardInfo[10].category}
             />
+              <Card
+  id=         {CardInfo[11].id}
+  imgMain=    {CardInfo[11].imgMain}
+  url=        {CardInfo[11].url}
+  title=      {CardInfo[11].title}
+  minutes=    {CardInfo[11].minutes}
+  ingredients={CardInfo[11].ingredients}
+  servings=   {CardInfo[11].servings} 
+  category=   {CardInfo[11].category}
+  />
   </div>
   </div>;
 }

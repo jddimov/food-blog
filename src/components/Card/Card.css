@@ -34,7 +34,8 @@
     text-align: center;
     color: white;
     padding: 0.6rem;
-    background: linear-gradient(to right, #ff512f, #dd2476);
+    /* background: linear-gradient(to right, #ff512f, #dd2476); */
+    background: linear-gradient(to right, #ff947f, #cf6394);
     border: none;
     transition: 0.2s;
     border: none;

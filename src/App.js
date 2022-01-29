@@ -18,6 +18,7 @@ import Salad from './pages/recipes/Salad';
 import ErrorPage from './pages/ErrorPage';
 import CommercialPage from './pages/recipes/CommercialPage';
 import Footer from './components/Footer/Footer';
+import ScrollToTop from './components/ScrollToTop';
 
 
 
@@ -29,7 +30,8 @@ function App() {
     <div>
     
     <Router>
-
+    
+     <ScrollToTop />
      <Navbar  toggle={toggle} />
      <Sidebar toggle={toggle} isOpen={isOpen}/>
      

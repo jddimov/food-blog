@@ -12,8 +12,8 @@ export default function Slider() {
 return (
 	<div >
 	<Carousel>
-		<Carousel.Item interval={2500} className='item'>
-		<Link to="/food-blog/recipes/soup/chicken" >
+		<Carousel.Item interval={3500} className='item'>
+		<Link to="/food-blog/recipes/main-dish/t-bone-steak/" >
 		<img
 			className="d-block w-100 imgg"
 			src={one}
@@ -23,18 +23,18 @@ return (
 			<h3>Т-боун стек от блек ангъс</h3>
 		</Carousel.Caption>
 		</Carousel.Item>
-		<Carousel.Item interval={2500} className='item'>
-		<Link to="/food-blog/recipes/appetizer/cezar" >
+		<Carousel.Item interval={3500} className='item'>
+		<Link to="/food-blog/recipes/dessert/banana-bread" >
 		<img
 			className="d-block w-100 imgg"
 			src={two}
 			alt="Image Two"
 		/></Link>
 		<Carousel.Caption className='textCarousel'>
-			<h3>Лава кейк с белгийски шоколад</h3>
+			<h3>Бананов хляб</h3>
 		</Carousel.Caption>
 		</Carousel.Item>
-		<Carousel.Item interval={2500} className='item'>
+		<Carousel.Item interval={3500} className='item'>
 		<Link to="/food-blog/recipes/appetizer/cezar" >
 		<img
 			className="d-block w-100 imgg"
@@ -42,18 +42,18 @@ return (
 			alt="Image Two"
 		/></Link>
 		<Carousel.Caption className='textCarousel'>
-			<h3>Хрупкава дърпана баница</h3>
+			<h3>Катми със сладко</h3>
 		</Carousel.Caption>
 		</Carousel.Item>
-		<Carousel.Item interval={2500} className='item'>
-		<Link to="/food-blog/recipes/soup/chicken" >
+		<Carousel.Item interval={3500} className='item'>
+		<Link to="/food-blog/recipes/pastry/sweet-bread" >
 		<img
 			className="d-block w-100 imgg"
 			src={four}
 			alt="Image Two"
 		/></Link>
 		<Carousel.Caption className='textCarousel' style={{fontSize: '100px'}}>
-			<h3>Печено пиле по китайски</h3>
+			<h3>Великденски козунак</h3>
 		</Carousel.Caption>
 		</Carousel.Item>
 	</Carousel>

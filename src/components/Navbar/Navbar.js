@@ -37,12 +37,12 @@ const Navbar = ( { toggle } ) => {
           
                             <nav ref={dropdownRef} className={`menudd ${dropDownIsActive ? "active" : "inactive"}`} >
                               <ul>
-                                <li><Link to="/food-blog/recipes/salad" ><FaAngleRight />Салати</Link></li>
-                                <li><Link to="/food-blog/recipes/soup" ><FaAngleRight />Супи</Link></li>
-                                <li><Link to="/food-blog/recipes/appetizer" ><FaAngleRight />Предястия</Link></li>
-                                <li><Link to="/food-blog/recipes/main-dish" ><FaAngleRight />Основни ястия</Link></li>
-                                <li><Link to="/food-blog/recipes/dessert" ><FaAngleRight />Десерти</Link></li>
-                                <li><Link to="/food-blog/recipes/pastry" ><FaAngleRight />Тестени изделия</Link></li>
+                                <li><Link onClick={onClick} to="/food-blog/recipes/salad" ><FaAngleRight />Салати</Link></li>
+                                <li><Link onClick={onClick} to="/food-blog/recipes/soup" ><FaAngleRight />Супи</Link></li>
+                                <li><Link onClick={onClick} to="/food-blog/recipes/appetizer" ><FaAngleRight />Предястия</Link></li>
+                                <li><Link onClick={onClick} to="/food-blog/recipes/main-dish" ><FaAngleRight />Основни ястия</Link></li>
+                                <li><Link onClick={onClick} to="/food-blog/recipes/dessert" ><FaAngleRight />Десерти</Link></li>
+                                <li><Link onClick={onClick} to="/food-blog/recipes/pastry" ><FaAngleRight />Тестени изделия</Link></li>
                               </ul>
                             </nav>
                           </div>
