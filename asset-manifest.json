@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/food-blog/static/css/main.624b4253.css",
-    "main.js": "/food-blog/static/js/main.9dc3f655.js",
+    "main.css": "/food-blog/static/css/main.99452e7a.css",
+    "main.js": "/food-blog/static/js/main.6d69d639.js",
     "static/media/(3).jpg": "/food-blog/static/media/(3).99fc34585a90f8a177cf.jpg",
+    "static/media/(1).jpg": "/food-blog/static/media/(1).f5e5315dfda0810d0494.jpg",
     "static/media/(2).jpg": "/food-blog/static/media/(2).f721c2fbc8984bb50df1.jpg",
-    "static/media/(1).jpg": "/food-blog/static/media/(1).b4b4d7315085ad2e2771.jpg",
-    "static/media/(4).jpg": "/food-blog/static/media/(4).2ced7678ada723a2a164.jpg",
+    "static/media/(4).jpg": "/food-blog/static/media/(4).a9904c8d36dd1875b436.jpg",
     "static/media/white-sourdough-bread.jpg": "/food-blog/static/media/white-sourdough-bread.6096bc3d231580fd8c23.jpg",
     "static/media/bruschetta-mix.jpg": "/food-blog/static/media/bruschetta-mix.8eb5d7ba218963b7abda.jpg",
     "static/media/rye-sourdough-bread.jpg": "/food-blog/static/media/rye-sourdough-bread.596c4c8d5e4e949d6f2c.jpg",
@@ -27,11 +27,11 @@
     "static/media/tiramisu.jpg": "/food-blog/static/media/tiramisu.aae28d0776cde82f9f24.jpg",
     "index.html": "/food-blog/index.html",
     "static/media/book-outline.svg": "/food-blog/static/media/book-outline.600ff157aa72b0acbb5e4cb23cd9fc6c.svg",
-    "main.624b4253.css.map": "/food-blog/static/css/main.624b4253.css.map",
-    "main.9dc3f655.js.map": "/food-blog/static/js/main.9dc3f655.js.map"
+    "main.99452e7a.css.map": "/food-blog/static/css/main.99452e7a.css.map",
+    "main.6d69d639.js.map": "/food-blog/static/js/main.6d69d639.js.map"
   },
   "entrypoints": [
-    "static/css/main.624b4253.css",
-    "static/js/main.9dc3f655.js"
+    "static/css/main.99452e7a.css",
+    "static/js/main.6d69d639.js"
   ]
 }
