@@ -24,14 +24,14 @@
 .testOfBorders{
     display: none;
 }
-@media  screen and (max-width: 600px) {
+@media  screen and (max-width: 620px) {
     .testOfBorders{
         display: block;
         width: 30%;
         border-bottom: 1px solid #700000;
     }
 }
-@media  screen and (min-width: 600px) {
+@media  screen and (min-width: 620px) {
     .testOfBorders{
         display: block;
         border-left: 1px solid #700000;
@@ -55,7 +55,7 @@
     border: 1px solid rgb(138, 46, 46);
     padding: 1%;
 }
-@media  screen and (max-width: 600px) {
+@media  screen and (max-width: 620px) {
     .infoBox {
         flex-direction: column;
         gap: 1rem;
