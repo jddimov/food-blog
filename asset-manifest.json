@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/food-blog/static/css/main.99452e7a.css",
-    "main.js": "/food-blog/static/js/main.6d69d639.js",
+    "main.css": "/food-blog/static/css/main.f9d3f8bd.css",
+    "main.js": "/food-blog/static/js/main.c288d69a.js",
     "static/media/(3).jpg": "/food-blog/static/media/(3).99fc34585a90f8a177cf.jpg",
     "static/media/(1).jpg": "/food-blog/static/media/(1).f5e5315dfda0810d0494.jpg",
     "static/media/(2).jpg": "/food-blog/static/media/(2).f721c2fbc8984bb50df1.jpg",
@@ -27,11 +27,11 @@
     "static/media/tiramisu.jpg": "/food-blog/static/media/tiramisu.aae28d0776cde82f9f24.jpg",
     "index.html": "/food-blog/index.html",
     "static/media/book-outline.svg": "/food-blog/static/media/book-outline.600ff157aa72b0acbb5e4cb23cd9fc6c.svg",
-    "main.99452e7a.css.map": "/food-blog/static/css/main.99452e7a.css.map",
-    "main.6d69d639.js.map": "/food-blog/static/js/main.6d69d639.js.map"
+    "main.f9d3f8bd.css.map": "/food-blog/static/css/main.f9d3f8bd.css.map",
+    "main.c288d69a.js.map": "/food-blog/static/js/main.c288d69a.js.map"
   },
   "entrypoints": [
-    "static/css/main.99452e7a.css",
-    "static/js/main.6d69d639.js"
+    "static/css/main.f9d3f8bd.css",
+    "static/js/main.c288d69a.js"
   ]
 }
