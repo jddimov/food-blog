@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 .footerContainer {
   position: relative;
   margin-bottom: 0;
@@ -8,13 +10,21 @@
   text-align: center;
 }
 
-.socialIcons {
+.socialIconsContainer {
   display: flex;
   justify-content: center;
   gap: 5%;
   margin-top: 10px;
   padding: 15px;
 }
-.trademarkFooter {
+.trademarkFooter b {
   margin-top: 60px;
+  font-family: 'Roboto', sans-serif;
+  
+}
+.socialIcons { 
+  color: black;
+}
+.socialIcons:hover {
+  transform: scale(1.1)
 }

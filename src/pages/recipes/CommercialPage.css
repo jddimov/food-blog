@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 .commercialPageContainer {
     margin-bottom: 65%;
     height: fit-content;
 }
+
 .imageContainer {
     width: 100%;
 }

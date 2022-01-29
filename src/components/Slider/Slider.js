@@ -35,7 +35,7 @@ return (
 		</Carousel.Caption>
 		</Carousel.Item>
 		<Carousel.Item interval={3500} className='item'>
-		<Link to="/food-blog/recipes/appetizer/cezar" >
+		<Link to="/food-blog/recipes/dessert/pancakes-with-yoghurt" >
 		<img
 			className="d-block w-100 imgg"
 			src={three}
