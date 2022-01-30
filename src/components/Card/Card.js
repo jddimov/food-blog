@@ -30,7 +30,7 @@ function Card(props) {
                     <div style={{fontSize: '12px'}}>ТРУДНОСТ</div>
                     <div style={{fontSize: '12px'}}>ПОРЦИИ  </div>
                     <div style={{fontSize: '20px'}}>{props.minutes}</div>
-                    {CreateDiffNumbers(props.difficulty)}
+                    <div style={{fontSize: '20px'}}>{CreateDiffNumbers(props.difficulty)}</div>
                     <div style={{fontSize: '20px'}}>{props.servings}</div>
              
                 </div>
