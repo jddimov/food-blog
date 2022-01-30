@@ -1,9 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 .commercialPageContainer {
     margin-bottom: 65%;
     height: fit-content;
 }
+/* .commercialPageContainer div, b, u {
+   
+    font-family: 'Roboto', sans-serif; */
+    /* font-size: 30px;
+} */
 
 .imageContainer {
     width: 100%;

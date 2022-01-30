@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams } from "react-router-dom"
 import CardInfo from '../../components/Card/CardInfo';
-import Footer from '../../components/Footer/Footer';
+import CreateDifficulty from '../../components/Card/CreateDifficulty';
 import "./CommercialPage.css"
 
 
@@ -11,25 +11,18 @@ const CommercialPage = () => {
     const id = CardInfo.findIndex(x => x.category === category && x.url === url )
 
   return <div className='commercialPageContainer'>
-
-  <div>1</div>
-  <div>2</div>
-  <div>3</div>
-
-  {/* <div className='imageContainer'><img src={CardInfo     [id].imgMain} className='commCardImage'></img></div> */}
+  <div>&nbsp;</div>
+  <div>&nbsp;</div>
+  <div>&nbsp;</div>
 
   <div><p className='cardTitle'><u style={{ textDecorationThickness: '3px' }}>{CardInfo[id].title}</u></p></div>
 
   <div className='infoContainer'>
     <div className='infoBox'>
     <div>{CardInfo     [id].minutes}</div>
-
     <div className='testOfBorders'>&nbsp;</div>
-    
-    <div>{CardInfo [id].ingredients} съставки</div>
-
+    <div>{CreateDifficulty( CardInfo[id].difficulty)}</div>
     <div className='testOfBorders'>&nbsp;</div>
-
     <div>{CardInfo    [id].servings} порции</div>
     </div>
   </div>

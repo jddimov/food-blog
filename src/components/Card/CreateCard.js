@@ -9,7 +9,7 @@ function CreateCard(cardComponent) {
         url=        {cardComponent.url}
         title=      {cardComponent.title}
         minutes=    {cardComponent.minutes}
-        ingredients={cardComponent.ingredients}
+        difficulty= {cardComponent.difficulty}
         servings=   {cardComponent.servings} 
         category=   {cardComponent.category}
         />

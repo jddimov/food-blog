@@ -18,4 +18,8 @@
 .carousel-indicators {
     position: absolute;
     top: 90%;
+    
+}
+.carousel-control-prev-icon {
+    height: 20%;
 }

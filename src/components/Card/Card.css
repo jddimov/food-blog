@@ -7,6 +7,7 @@
     animation: ease-in;
     background-color: white;
     border-radius: 0.5rem;
+    line-height: 90%;
 }
 .card-container:hover {
     transform: scale(1.02);
@@ -25,7 +26,7 @@
 }
 .cardTitleMain {
     font-size: 25px;
-    line-height: 100%;
+    line-height: 90%;
     min-height: 50px;
 }
 
@@ -34,7 +35,6 @@
     text-align: center;
     color: white;
     padding: 0.6rem;
-    /* background: linear-gradient(to right, #ff512f, #dd2476); */
     background: linear-gradient(to right, #ff947f, #cf6394);
     border: none;
     transition: 0.2s;
@@ -51,8 +51,9 @@
     
 }
 
-.icons {
-    margin-top: 15px;
+.iconsCard {
+    margin-top: 10px;
+    margin-bottom: 5px;
     display: grid;
     justify-items: center;
     grid-template-columns: 60px 60px 60px;
