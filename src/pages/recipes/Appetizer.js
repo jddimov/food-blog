@@ -1,27 +1,20 @@
 import React from 'react';
 import CardInfo from '../../components/Card/CardInfo'
-import Card from '../../components/Card/Card'
+import CreateCard from '../../components/Card/CreateCard';
 
 const Appetizer = () => {
+
+  const filterAppetizer = CardInfo.filter(card => card.category == "appetizer")
   return <div>
-  <div>1   </div>
-  <div>2  </div>
-  <div>3   </div>
+  <div>&nbsp;</div>
+  <div>&nbsp;</div>
+  <div>&nbsp;</div>
 
   <div className='cards-container'>
-    <Card
-    id=         {CardInfo[1].id}
-    imgMain=    {CardInfo[1].imgMain}
-    url=        {CardInfo[1].url}
-    title=      {CardInfo[1].title}
-    minutes=    {CardInfo[1].minutes}
-    ingredients={CardInfo[1].ingredients}
-    servings=   {CardInfo[1].servings}  
-    category=   {CardInfo[1].category}
-    />
     
+    {filterAppetizer.map(CreateCard)}
 
-            </div>
+  </div>
   
   </div>;
 }
