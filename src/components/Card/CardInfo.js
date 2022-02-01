@@ -7,16 +7,19 @@ import chocolateSouffle from "./pictures/izbrani/chocolate-souffle.jpg";
 import whiteSourdoughBread from "./pictures/izbrani/white-sourdough-bread.jpg";
 import cheesecakeChocolate from "./pictures/izbrani/cheesecake-chocolate.jpg";
 import pumpkinPastry from "./pictures/izbrani/pumpkin-pastry.jpg";
-
 import bananaBread from "./pictures/izbrani/banana-bread.jpg";
 import pizzaDough from "./pictures/izbrani/pizza-dough.jpg";
 import ryeSourdoughBread from "./pictures/izbrani/rye-sourdough-bread.jpg";
 import beanSoup from "./pictures/izbrani/bean-soup.jpg";
 import frenchHoneyCake from "./pictures/izbrani/french-honey-cake.jpg";
-
 import friedSquid from "./pictures/izbrani/fried-squid.jpg";
 import tiramisu from "./pictures/izbrani/tiramisu.jpg";
 import pancakesWithYoghurt from "./pictures/izbrani/pancakes-with-yoghurt.jpg";
+
+import summerMintSalad from "./pictures/izbrani/summer-mint-salad.jpg";
+import strawberriesSalad from "./pictures/izbrani/strawberries-salad.jpg";
+import chickenRoulades from "./pictures/izbrani/chicken-roulades.jpg";
+import redPepperRelish from "./pictures/izbrani/red-pepper-relish.jpeg";
 
 
 
@@ -226,6 +229,54 @@ const CardInfo = [
         difficulty: "3",
         servings: "12",
         category: "dessert"
+    },
+    {
+        id: 17,
+        imgMain: redPepperRelish,
+        url: "red-pepper-relish",
+        title: "Едросмляна лютеница",
+        products: "<u>Необходими продукти: </u> <br> <br>&nbsp&nbsp-3 бр. изпечени патладжани<br>&nbsp&nbsp-10 бр. изпечени червени чушки<br>&nbsp&nbsp-2 скилидки чесън<br>&nbsp&nbsp-сол<br>&nbsp&nbsp-олио<br>&nbsp&nbsp-черен пипер<br>&nbsp&nbsp-1 с.л. оцет<br>&nbsp&nbsp-щипка захар",
+        description: "Домашна лютеница намазана на препечена филийка със сирене ме връща в детството.. Една хапка и си там. <br> <br>Блендирайте всичко в пасатор или го смелете на машина. Загрейте олиото на тиган и изсипите продуктите. Сложете всички подправки и варете на слав огън. След около 30 мин ще започен да се сгъстява. Разбърквайте често, за да не загори и варете до желата гъстота.",
+        minutes: "100 мин",
+        difficulty: "1",
+        servings: "12",
+        category: "appetizer"
+    },
+    {
+        id: 18,
+        imgMain: chickenRoulades,
+        url: "chicken-roulades",
+        title: "Пилешки руладини",
+        products: "<u>Необходими продукти: </u> <br> <br>&nbsp&nbsp-1 кг. пилешко филе <br>&nbsp&nbsp-5-6 бр. кисели краставички  <br>&nbsp&nbsp-150 гр. кашкавал <br>&nbsp&nbsp-150 гр. шунка <br>&nbsp&nbsp-сол <br>&nbsp&nbsp-черен пипер <br>&nbsp&nbsp-олио<br> <br>Ще ви трябват още:<br>&nbsp&nbsp-чук за изтъняване на филето <br>&nbsp&nbsp-прозрачно фолио за навиване",
+        description: "Откъснете голямо парче прозрачно фолио. Разрежете пилешкото филе през средата и започнете да ги чукате докато станат тънички. Посолете със сол и черен пипер и ги подредете върху фолиото. Наредете отгоре шунката, кашкавала и краставичките и завийте на стегнато руло. Оставете да си почине 20 мин. <br> Загрейте фурната на 200 градуса и след като си е починало филето, поръсете с малко олио и го сложете да се пече за 20 мин. Гарнирайте със сос по избор.<br>Предложение за сервиране:<br>Месото е крехко и леко и е чудесна комбинация със сухо бяло вино.",
+        minutes: "50 мин",
+        difficulty: "1",
+        servings: "4",
+        category: "main-dish"
+    },
+    {
+        id: 19,
+        imgMain: strawberriesSalad,
+        url: "strawberries-salad",
+        title: "Микс от салатки с ягоди",
+        products: "<u>Необходими продукти: </u> <br> <br>&nbsp&nbsp-200 гр микс от салатки <br>&nbsp&nbsp-10 бр орехчета <br>&nbsp&nbsp-6 бр ягоди <br>&nbsp&nbsp-60 гр сирене<br><br> За дресинга: <br>&nbsp&nbsp-зехтин <br>&nbsp&nbsp-сол <br>&nbsp&nbsp-бял балсамико <br>&nbsp&nbsp-скът на 1/4 лимон",
+        description: "Ако обичате комбинация от сладко и солено, то тази салата е за вас. <br><br>Разбъркайте съставките за дресинга. Измийте продуктите. Накъсайте салатата и нарежете ягодките. Поръсете с орехи и сирене. Завършете с дресинга.<br>Предложение за сервиране:<br>Салатата върви отлично с чаша охладено бяло вино.",
+        minutes: "15 мин",
+        difficulty: "1",
+        servings: "2",
+        category: "salad"
+    },
+    {
+        id: 20,
+        imgMain: summerMintSalad,
+        url: "summer-mint-salad",
+        title: "Лятна салата с мента",
+        products: "<u>Необходими продукти: </u> <br> <br>&nbsp&nbsp-1 бр. Патладжан<br>&nbsp&nbsp-1 бр тиквичка<br>&nbsp&nbsp-100 гр. сирене<br>&nbsp&nbsp-2-3 чери доматчета<br>&nbsp&nbsp-2 стръка мента<br>&nbsp&nbsp-зехтин<br>&nbsp&nbsp-сол",
+        description: "Загрейте грил тиган. Нарежете патладжана на дълги ленти и го посолете, за да изтече горчивия сок. Оставете го за около 20 минути да престои. <br>През това време нарежете тиквичката на ленитички и я запечете от двете страни. Когато дойде ред на патладжана, го измийте от солта и горчивия сок и запечете и него. Намачкайте сиренето, нарежете на дребно доматите и ментата и овкусете с малко зехтин. Във всяка една от лентичките патладжан и тиквичка, сложете малко плънка и я завиите на руло. Поръсете със сол и зехтин. ",
+        minutes: "15 мин",
+        difficulty: "1",
+        servings: "2",
+        category: "salad"
     }
 ]
 

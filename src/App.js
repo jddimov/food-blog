@@ -51,14 +51,14 @@ function App() {
 
        {/* <Route path="/food-blog/recipes/:category/:url"   element={<CommercialPage />} /> */}
 
-       <Route path="/food-blog/recipes/*" >
+       <Route path="/food-blog/recipes/*" element={<CommercialPage />}>
         <Route path=':category/:url' element={<CommercialPage />} />
       </Route>
 
 
        {/* <Route path="https://jddimov.github.io/food-blog/recipes/:category/:url"   element={<CommercialPage />} /> */}
 
-       <Route path="https://jddimov.github.io/food-blog/recipes/*" >
+       <Route path="https://jddimov.github.io/food-blog/recipes/*" element={<CommercialPage />}>
         <Route path=':category/:url' element={<CommercialPage />} />
       </Route>
 
