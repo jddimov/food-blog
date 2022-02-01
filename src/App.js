@@ -51,16 +51,6 @@ function App() {
 
        <Route path="/recipes/:category/:url"   element={<CommercialPage />} />
 
-       <Route path="https://jddimov.github.io/food-blog/recipes/:category/:url"   element={<CommercialPage />} />
-       <Route path="https://jddimov.github.io/food-blog/recipes/dessert/:url"   element={<CommercialPage />} />
-       <Route path="https://jddimov.github.io/food-blog/recipes/appetizer/:url"   element={<CommercialPage />} />
-       <Route path="https://jddimov.github.io/food-blog/recipes/main-dish/:url"   element={<CommercialPage />} />
-       <Route path="https://jddimov.github.io/food-blog/recipes/soup/:url"   element={<CommercialPage />} />
-       <Route path="https://jddimov.github.io/food-blog/recipes/pastry/:url"   element={<CommercialPage />} />
-       <Route path="https://jddimov.github.io/food-blog/recipes/salad/:url"   element={<CommercialPage />} />
-
-
-
        <Route path="*" element={<ErrorPage/> } />
           
     
