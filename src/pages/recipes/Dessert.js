@@ -1,6 +1,7 @@
 import React from 'react';
 import CardInfo from '../../components/Card/CardInfo'
 import CreateCard from '../../components/Card/CreateCard';
+import { Outlet } from 'react-router-dom';
 
 const Dessert = () => {
 
@@ -16,7 +17,7 @@ const Dessert = () => {
     {filterSalad.map(CreateCard)}
 
   </div>
-
+<Outlet />
   </div>;
 }
 
