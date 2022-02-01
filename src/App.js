@@ -49,22 +49,17 @@ function App() {
        <Route path="/food-blog/recipes/pastry"   element={<Pastry/>} />
        <Route path="/food-blog/recipes/salad"   element={<Salad />} />
 
-       {/* <Route path="/food-blog/recipes/:category/:url"   element={<CommercialPage />} /> */}
+       <Route path="/food-blog/recipes/:category/:url"   element={<CommercialPage />} />
 
-       <Route path="/food-blog/recipes/*" element={<CommercialPage />}>
-        <Route path=':category/:url' element={<CommercialPage />} />
-      </Route>
+       <Route path="https://jddimov.github.io/food-blog/recipes/:category/:url"   element={<CommercialPage />} />
+       <Route path="https://jddimov.github.io/food-blog/recipes/dessert/:url"   element={<CommercialPage />} />
+       <Route path="https://jddimov.github.io/food-blog/recipes/appetizer/:url"   element={<CommercialPage />} />
+       <Route path="https://jddimov.github.io/food-blog/recipes/main-dish/:url"   element={<CommercialPage />} />
+       <Route path="https://jddimov.github.io/food-blog/recipes/soup/:url"   element={<CommercialPage />} />
+       <Route path="https://jddimov.github.io/food-blog/recipes/pastry/:url"   element={<CommercialPage />} />
+       <Route path="https://jddimov.github.io/food-blog/recipes/salad/:url"   element={<CommercialPage />} />
 
 
-       {/* <Route path="https://jddimov.github.io/food-blog/recipes/:category/:url"   element={<CommercialPage />} /> */}
-
-       <Route path="https://jddimov.github.io/food-blog/recipes/*" element={<CommercialPage />}>
-        <Route path=':category/:url' element={<CommercialPage />} />
-      </Route>
-
-       {/* <Route path="/messages" element={<Messages />}>
-        <Route path=':id' element={<Chats />} />
-      </Route> */}
 
        <Route path="*" element={<ErrorPage/> } />
           
