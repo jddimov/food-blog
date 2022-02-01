@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Footer.css"
 import { FaFacebook, FaInstagram, FaEnvelope } from "react-icons/fa";
+import { Outlet } from 'react-router-dom';
 
 
 const Footer = () => {
@@ -13,10 +14,10 @@ const Footer = () => {
     <a class='socialIcons' href="loriplamenova93@gmail.com"><FaEnvelope  size={40}/></a>
   </div>
 
-<div className='trademarkFooter'><b>тест Copyright &copy;{(new Date().getFullYear())} Food Inspiration | All Rights Reserved</b></div>
+<div className='trademarkFooter'><b>tt123 Copyright &copy;{(new Date().getFullYear())} Food Inspiration | All Rights Reserved</b></div>
 </div>
 
-
+<Outlet />
   </div>;
 }
 

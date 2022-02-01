@@ -1,10 +1,11 @@
 import React from 'react'
 import "./Card.css"
-import { FaRegClock, FaRegStar, FaStar  } from "react-icons/fa";
+import { FaRegClock } from "react-icons/fa";
 import serving from "./serving.png";
 import { Link } from "react-router-dom";
 import CreateDifficulty from './CreateDifficulty';
 import CreateDiffNumbers from './CreateDiffNumbers';
+import { Outlet } from 'react-router-dom';
 
 
 function Card(props) {
@@ -39,6 +40,7 @@ function Card(props) {
                     <button className='card-btn'>Виж рецептата</button></Link>
                 </div>
            </div>   
+           <Outlet />
         </div>
     );
 }
