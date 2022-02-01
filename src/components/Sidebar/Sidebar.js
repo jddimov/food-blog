@@ -20,11 +20,11 @@ const Sidebar = ({isOpen, toggle}) => {
                 <SidebarMenu>
                   
                     <div style={{marginTop: "60px"}}> 
-                    <SidebarLink onClick={toggle} to="/food-blog">
+                    <SidebarLink onClick={toggle} to="/">
                     <img src={logoClean} activeStyle style={{height: "90px", width: "90px"}} />
                     </SidebarLink>
                     
-                    <Link to="/food-blog" style={{ textDecoration: 'none' }} onClick={toggle}><span class='textLogo'>Food Inspiration</span></Link>
+                    <Link to="/" style={{ textDecoration: 'none' }} onClick={toggle}><span class='textLogo'>Food Inspiration</span></Link>
                     </div>
                           <div className="menusb-cont">
                             <button onClick={onClick} className='dropbtn'>
@@ -34,16 +34,16 @@ const Sidebar = ({isOpen, toggle}) => {
             
                             <div ref={dropdownRef} className={`menusb ${sidebarDropIsActive ? "active" : "inactive"}`}> 
                             
-                            <SidebarLink onClick={toggle} to="/food-blog/recipes/salad" ><FaAngleRight />Салати</SidebarLink>
-                            <SidebarLink onClick={toggle} to="/food-blog/recipes/soup" ><FaAngleRight />Супи</SidebarLink>
-                            <SidebarLink onClick={toggle} to="/food-blog/recipes/appetizer" ><FaAngleRight />Предястия</SidebarLink>
-                            <SidebarLink onClick={toggle} to="/food-blog/recipes/main-dish" ><FaAngleRight />Основни ястия</SidebarLink>
-                            <SidebarLink onClick={toggle} to="/food-blog/recipes/dessert" ><FaAngleRight />Десерти</SidebarLink>
-                            <SidebarLink onClick={toggle} to="/food-blog/recipes/pastry" ><FaAngleRight />Тестени изделия</SidebarLink>
+                            <SidebarLink onClick={toggle} to="/recipes/salad" ><FaAngleRight />Салати</SidebarLink>
+                            <SidebarLink onClick={toggle} to="/recipes/soup" ><FaAngleRight />Супи</SidebarLink>
+                            <SidebarLink onClick={toggle} to="/recipes/appetizer" ><FaAngleRight />Предястия</SidebarLink>
+                            <SidebarLink onClick={toggle} to="/recipes/main-dish" ><FaAngleRight />Основни ястия</SidebarLink>
+                            <SidebarLink onClick={toggle} to="/recipes/dessert" ><FaAngleRight />Десерти</SidebarLink>
+                            <SidebarLink onClick={toggle} to="/recipes/pastry" ><FaAngleRight />Тестени изделия</SidebarLink>
                             </div>
-                    <SidebarLink onClick={toggle} to="/food-blog/inspire">Вдъхнови се тук</SidebarLink>
-                    <SidebarLink onClick={toggle} to="/food-blog/about">За мен</SidebarLink>
-                    <SidebarLink onClick={toggle} to="/food-blog/contacts">Контакт</SidebarLink>
+                    <SidebarLink onClick={toggle} to="/inspire">Вдъхнови се тук</SidebarLink>
+                    <SidebarLink onClick={toggle} to="/about">За мен</SidebarLink>
+                    <SidebarLink onClick={toggle} to="/contacts">Контакт</SidebarLink>
 
                 </SidebarMenu>
          

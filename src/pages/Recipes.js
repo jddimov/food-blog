@@ -10,9 +10,9 @@ const Recipes = () => {
             <h1>receptiiii</h1>
             <h1>receptiiii</h1>
             <h1>receptiiii</h1>
-            <div><NavLink to="/food-blog/recipes/dessert">dessert</NavLink></div>
+            <div><NavLink to="/recipes/dessert">dessert</NavLink></div>
             <div>menu</div>
-            <div><NavLink to="/food-blog/recipes/appetizer">appetizer</NavLink></div>
+            <div><NavLink to="/recipes/appetizer">appetizer</NavLink></div>
 
         </div>
     )

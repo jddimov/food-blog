@@ -13,7 +13,7 @@ return (
 	<div >
 	<Carousel>
 		<Carousel.Item interval={3500} className='item'>
-		<Link to="/food-blog/recipes/main-dish/t-bone-steak/" >
+		<Link to="/recipes/main-dish/t-bone-steak/" >
 		<img
 			className="d-block w-100 imgg"
 			src={one}
@@ -24,7 +24,7 @@ return (
 		</Carousel.Caption>
 		</Carousel.Item>
 		<Carousel.Item interval={3500} className='item'>
-		<Link to="/food-blog/recipes/dessert/banana-bread" >
+		<Link to="/recipes/dessert/banana-bread" >
 		<img
 			className="d-block w-100 imgg"
 			src={two}
@@ -35,7 +35,7 @@ return (
 		</Carousel.Caption>
 		</Carousel.Item>
 		<Carousel.Item interval={3500} className='item'>
-		<Link to="/food-blog/recipes/dessert/pancakes-with-yoghurt" >
+		<Link to="/recipes/dessert/pancakes-with-yoghurt" >
 		<img
 			className="d-block w-100 imgg"
 			src={three}
@@ -46,7 +46,7 @@ return (
 		</Carousel.Caption>
 		</Carousel.Item>
 		<Carousel.Item interval={3500} className='item'>
-		<Link to="/food-blog/recipes/pastry/sweet-bread" >
+		<Link to="/recipes/pastry/sweet-bread" >
 		<img
 			className="d-block w-100 imgg"
 			src={four}
