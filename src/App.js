@@ -60,8 +60,8 @@ function App() {
        <Route path="https://jddimov.github.io/food-blog/recipes/salad/:url"   element={<CommercialPage />} />
 
 
-{/* 
-       <Route path="*" element={<ErrorPage/> } /> */}
+
+       <Route path="*" element={<ErrorPage/> } />
           
     
      </Routes>
