@@ -49,8 +49,22 @@ function App() {
        <Route path="/food-blog/recipes/pastry"   element={<Pastry/>} />
        <Route path="/food-blog/recipes/salad"   element={<Salad />} />
 
-       <Route path="/food-blog/recipes/:category/:url"   element={<CommercialPage />} />
-       <Route path="https://jddimov.github.io/food-blog/recipes/:category/:url"   element={<CommercialPage />} />
+       {/* <Route path="/food-blog/recipes/:category/:url"   element={<CommercialPage />} /> */}
+
+       <Route path="/food-blog/recipes/*" >
+        <Route path=':category/:url' element={<CommercialPage />} />
+      </Route>
+
+
+       {/* <Route path="https://jddimov.github.io/food-blog/recipes/:category/:url"   element={<CommercialPage />} /> */}
+
+       <Route path="https://jddimov.github.io/food-blog/recipes/*" >
+        <Route path=':category/:url' element={<CommercialPage />} />
+      </Route>
+
+       {/* <Route path="/messages" element={<Messages />}>
+        <Route path=':id' element={<Chats />} />
+      </Route> */}
 
        <Route path="*" element={<ErrorPage/> } />
           
