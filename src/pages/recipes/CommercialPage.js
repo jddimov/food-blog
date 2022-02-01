@@ -21,6 +21,7 @@ const CommercialPage = () => {
     <div className='infoBox'>
     <div>{CardInfo     [id].minutes}</div>
     <div className='testOfBorders'>&nbsp;</div>
+    <div>сложност</div>
     <div>{CreateDifficulty( CardInfo[id].difficulty)}</div>
     <div className='testOfBorders'>&nbsp;</div>
     <div>{CardInfo    [id].servings} порции</div>

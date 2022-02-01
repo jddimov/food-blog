@@ -27,7 +27,7 @@ function Card(props) {
                     <div><img src={serving} style={{ height: "26px", width: "26px" }} /></div>
              
                     <div style={{fontSize: '12px'}}>ВРЕМЕ   </div>
-                    <div style={{fontSize: '12px'}}>ТРУДНОСТ</div>
+                    <div style={{fontSize: '12px'}}>СЛОЖНОСТ</div>
                     <div style={{fontSize: '12px'}}>ПОРЦИИ  </div>
                     <div style={{fontSize: '20px'}}>{props.minutes}</div>
                     <div style={{fontSize: '20px'}}>{CreateDiffNumbers(props.difficulty)}</div>
