@@ -10,7 +10,7 @@ import CreateCard from '../components/Card/CreateCard'
 const Home = () => {
 
     return (
-        <div style={{ background: "#ffeeed" }}>
+        <div style={{ background: "#ffeeed" }} >
             <h1 style={{marginBottom: "30px"}}>&nbsp;</h1>
 
             <Slider />

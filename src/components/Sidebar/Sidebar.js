@@ -1,10 +1,10 @@
 import React, { useRef } from 'react'
-import { SidebarContainer, Icon, CloseIcon, SidebarMenu, SidebarLink, Link } from './SidebarElement'
-// import { Link } from 'react-router-dom'
+import { SidebarContainer, Icon, CloseIcon, SidebarMenu, SidebarLink } from './SidebarElement'
 import { useDetectOutsideClick } from "../Navbar/useDetectOutsideClick";
 import logoClean from "../Navbar/logo-clean.png";
 import { FaAngleDown, FaAngleRight } from "react-icons/fa";
 import "./Sidebar.css"
+import { Link } from "react-router-dom"
 
 const Sidebar = ({isOpen, toggle}) => {
     const dropdownRef = useRef(null);
@@ -16,16 +16,15 @@ const Sidebar = ({isOpen, toggle}) => {
             <Icon onClick={toggle}>
                 <CloseIcon />
             </Icon>
-
-                
- 
+               
                 <SidebarMenu>
                   
                     <div style={{marginTop: "60px"}}> 
                     <SidebarLink onClick={toggle} to="/food-blog">
                     <img src={logoClean} activeStyle style={{height: "90px", width: "90px"}} />
                     </SidebarLink>
-                    <span style={{color:"#8c0608", fontSize: '30px'}} class='textLogo'>Food Inspiration</span>
+                    
+                    <Link to="/food-blog" style={{ textDecoration: 'none' }} onClick={toggle}><span class='textLogo'>Food Inspiration</span></Link>
                     </div>
                           <div className="menusb-cont">
                             <button onClick={onClick} className='dropbtn'>

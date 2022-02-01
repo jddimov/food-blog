@@ -11,13 +11,11 @@ export const SidebarContainer = styled.aside`
     display: flex;
     flex-direction: column;
     top: 0;
-    left: 0;
+    margin: 0;
+    padding: 0;
     transition: 0.3s ease-in-out;
     opacity: ${({ isOpen}) => (isOpen ? '100%' : '0')};
     top: ${({ isOpen}) => (isOpen ? '0' : '-100%')};
-`
-export const Link = styled.div`
-    color: black;
 `
 
 export const CloseIcon = styled(FaTimes)`
@@ -44,7 +42,10 @@ export const SidebarMenu = styled.ul`
     flex-direction: column;
     text-align: center;
     justify-items: flex-start;
+    width: 100%;
+    height: 100%;
     gap: 30px;
+    padding: 0;
 `
 
 export const SidebarLink = styled(Links)`
@@ -53,7 +54,6 @@ export const SidebarLink = styled(Links)`
     color: black;
     cursor: pointer;
     
-
     &:hover {
         color: #8c0608;
         text-decoration: underline;

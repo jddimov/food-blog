@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 .commercialPageContainer {
-    margin-bottom: 65%;
+    /* margin-bottom: 65%; */
     height: fit-content;
 }
 /* .commercialPageContainer div, b, u {
@@ -144,6 +144,7 @@
     width: 90%;
     margin-left: 5%;
     margin-top: 5%;
+    margin-bottom: 10%;
     font-size: 25px;
 } 
 

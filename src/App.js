@@ -35,23 +35,22 @@ function App() {
      <Navbar  toggle={toggle} />
      <Sidebar toggle={toggle} isOpen={isOpen}/>
      
-     
      <Routes>
-       <Route path="/food-blog" exact element={<Home/>} />
-       <Route path="/food-blog/recipes" exact element={<Recipes/>} />
-       <Route path="/food-blog/inspire" exact element={<Inspire/>} />
-       <Route path="/food-blog/about" exact element={<About/>} />
-       <Route path="/food-blog/contacts" exact element={<Contacts/>} />
+       <Route path="/food-blog"   element={<Home/>} />
+       <Route path="/food-blog/recipes"   element={<Recipes/>} />
+       <Route path="/food-blog/inspire"   element={<Inspire/>} />
+       <Route path="/food-blog/about"   element={<About/>} />
+       <Route path="/food-blog/contacts"   element={<Contacts/>} />
 
-       <Route path="/food-blog/recipes/dessert" exact element={<Dessert/>} />
-       <Route path="/food-blog/recipes/appetizer" exact element={<Appetizer/>} />
-       <Route path="/food-blog/recipes/main-dish" exact element={<MainDish/>} />
-       <Route path="/food-blog/recipes/soup" exact element={<Soup/>} />
-       <Route path="/food-blog/recipes/pastry" exact element={<Pastry/>} />
-       <Route path="/food-blog/recipes/salad" exact element={<Salad />} />
+       <Route path="/food-blog/recipes/dessert"   element={<Dessert/>} />
+       <Route path="/food-blog/recipes/appetizer"   element={<Appetizer/>} />
+       <Route path="/food-blog/recipes/main-dish"   element={<MainDish/>} />
+       <Route path="/food-blog/recipes/soup"   element={<Soup/>} />
+       <Route path="/food-blog/recipes/pastry"   element={<Pastry/>} />
+       <Route path="/food-blog/recipes/salad"   element={<Salad />} />
 
-       <Route path="/food-blog/recipes/:category/:url" exact element={<CommercialPage />} />
-       <Route path="https://jddimov.github.io/food-blog/recipes/:category/:url" exact element={<CommercialPage />} />
+       <Route path="/food-blog/recipes/:category/:url"   element={<CommercialPage />} />
+       <Route path="https://jddimov.github.io/food-blog/recipes/:category/:url"   element={<CommercialPage />} />
 
        <Route path="*" element={<ErrorPage/> } />
           
