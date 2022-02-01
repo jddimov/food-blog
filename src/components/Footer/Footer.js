@@ -14,7 +14,7 @@ const Footer = () => {
     <a class='socialIcons' href="loriplamenova93@gmail.com"><FaEnvelope  size={40}/></a>
   </div>
 
-<div className='trademarkFooter'><b>tt123 Copyright &copy;{(new Date().getFullYear())} Food Inspiration | All Rights Reserved</b></div>
+<div className='trademarkFooter'><b>tt333 Copyright &copy;{(new Date().getFullYear())} Food Inspiration | All Rights Reserved</b></div>
 </div>
 
 <Outlet />
