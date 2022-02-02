@@ -13,14 +13,14 @@ return (
 	<div >
 	<Carousel>
 		<Carousel.Item interval={3500} className='item'>
-		<Link to="/recipes/main-dish/t-bone-steak/" >
+		<Link to="/recipes/salad/summer-mint-salad/" >
 		<img
 			className="d-block w-100 imgg"
 			src={one}
 			alt="Image One"
 		/></Link>
 		<Carousel.Caption className='textCarousel'>
-			<h3>Т-боун стек от блек ангъс</h3>
+			<h3>Лятна салата с мента</h3>
 		</Carousel.Caption>
 		</Carousel.Item>
 		<Carousel.Item interval={3500} className='item'>

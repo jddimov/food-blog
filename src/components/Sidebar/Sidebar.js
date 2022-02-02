@@ -34,12 +34,12 @@ const Sidebar = ({isOpen, toggle}) => {
             
                             <div ref={dropdownRef} className={`menusb ${sidebarDropIsActive ? "active" : "inactive"}`}> 
                             
-                            <SidebarLink onClick={toggle} to="/recipes/salad" ><FaAngleRight />Салати</SidebarLink>
-                            <SidebarLink onClick={toggle} to="/recipes/soup" ><FaAngleRight />Супи</SidebarLink>
-                            <SidebarLink onClick={toggle} to="/recipes/appetizer" ><FaAngleRight />Предястия</SidebarLink>
-                            <SidebarLink onClick={toggle} to="/recipes/main-dish" ><FaAngleRight />Основни ястия</SidebarLink>
-                            <SidebarLink onClick={toggle} to="/recipes/dessert" ><FaAngleRight />Десерти</SidebarLink>
-                            <SidebarLink onClick={toggle} to="/recipes/pastry" ><FaAngleRight />Тестени изделия</SidebarLink>
+                            <SidebarLink onClick={toggle} to="/recipes/salad" >     <FaAngleRight />Салати</SidebarLink>
+                            <SidebarLink onClick={toggle} to="/recipes/soup" >      <FaAngleRight />Супи</SidebarLink>
+                            <SidebarLink onClick={toggle} to="/recipes/appetizer" > <FaAngleRight />Предястия</SidebarLink>
+                            <SidebarLink onClick={toggle} to="/recipes/main-dish" > <FaAngleRight />Основни ястия</SidebarLink>
+                            <SidebarLink onClick={toggle} to="/recipes/dessert" >   <FaAngleRight />Десерти</SidebarLink>
+                            <SidebarLink onClick={toggle} to="/recipes/pastry" >    <FaAngleRight />Тестени изделия</SidebarLink>
                             </div>
                     <SidebarLink onClick={toggle} to="/inspire">Вдъхнови се тук</SidebarLink>
                     <SidebarLink onClick={toggle} to="/about">За мен</SidebarLink>
