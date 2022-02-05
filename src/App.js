@@ -19,6 +19,8 @@ import ErrorPage from './pages/ErrorPage';
 import CommercialPage from './pages/recipes/CommercialPage';
 import Footer from './components/Footer/Footer';
 import ScrollToTop from './components/ScrollToTop';
+import ScrollButton from './components/ScrollButton/ScrollButton';
+
 
 
 
@@ -31,6 +33,7 @@ function App() {
     
     <Router basename="/food-blog">
     
+     <ScrollButton/>
      <ScrollToTop />
      <Navbar  toggle={toggle} />
      <Sidebar toggle={toggle} isOpen={isOpen}/>

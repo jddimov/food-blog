@@ -1,0 +1,35 @@
+.scrollArrow { 
+    position: fixed;
+    left: 95%;
+    bottom: 5%;
+    width: 40px;
+    height: 40px;
+    font-size: 3rem;
+    z-index: 1;
+    cursor: pointer;
+    color: #700000;
+    opacity: 0.6;
+}
+
+.scrollArrow:hover {
+    transform: scale(1.1);
+}
+
+@media  screen and (max-width: 900px) {
+    .scrollArrow {
+        left: 90%;
+        bottom: 5%;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media  screen and (max-width: 400px) {
+    .scrollArrow {
+        left: 85%;
+        bottom: 5%;
+        width: 40px;
+        height: 40px;
+    }
+}
+
