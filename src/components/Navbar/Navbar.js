@@ -19,7 +19,7 @@ const Navbar = ( { toggle } ) => {
         <>
             <Nav >
             
-                <NavLink to="/" >
+                <NavLink to="/" onClick={() => window.reload()}>
                 <div style={{ margin: "40px 100px 10px 10px"}}>
                 <img src={logoClean}  style={{height: "90px", width: "90px", color: "#8c0608"}} />
                 <span className='foodInspiration' >Food Inspiration</span>

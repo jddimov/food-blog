@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {FaArrowCircleUp, FaCaretSquareUp , FaRegCaretSquareUp, FaChevronCircleUp} from 'react-icons/fa';
+import { FaChevronCircleUp} from 'react-icons/fa';
 import './ScrollButton.css';
   
 const ScrollButton = () =>{
