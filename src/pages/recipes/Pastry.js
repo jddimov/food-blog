@@ -10,7 +10,14 @@ const Pastry = () => {
   <div>&nbsp;</div>
   <div>&nbsp;</div>
   <div>&nbsp;</div>
-
+  <h1 style={{
+  marginTop: "2rem", 
+  color:'#600000', 
+  borderBottom: '1.5px solid currentColor', 
+  display: 'inline-block',
+  position:'relative',
+  left:'50%',
+  transform: 'translateX(-50%)'}}>Тестени изделия</h1>
   <div className='cards-container'>
 
     {filterPastry.map(CreateCard)}

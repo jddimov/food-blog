@@ -13,7 +13,7 @@ const Home = () => {
             <h1 style={{marginBottom: "30px"}}>&nbsp;</h1>
 
             <Slider />
-            <h1 style={{margin: "2rem", color:'#600000'}}>Най-новите ни рецепти:</h1>
+            <h1 style={{margin: "2rem", color:'#600000', borderBottom: '1.5px solid currentColor', display: 'inline-block'}}>Най-новите ни рецепти:</h1>
             <div className='cards-container'>
             {CardInfo.slice(-4).reverse().map(CreateCard)}
             </div>

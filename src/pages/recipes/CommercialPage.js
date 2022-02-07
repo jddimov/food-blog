@@ -27,7 +27,7 @@ const CommercialPage = () => {
 
     
 
-  return <div className='commercialPageContainer' style={{color:'#500000'}}>
+  return <div className='commercialPageContainer' style={{color:'#400000'}}>
   <div>&nbsp;</div>
   <div>&nbsp;</div>
   <div>&nbsp;</div>
@@ -54,7 +54,7 @@ const CommercialPage = () => {
 <div style={{ marginLeft: '5%', fontSize: '28px', marginTop: '5%'}}><u>Приготвяне:</u></div>
 <div className='detailDescription' dangerouslySetInnerHTML={{__html: `${CardInfo[id].description}` }} />
 
-<h2 style={{marginLeft: "5%"}}>Може да разгледате още:</h2>
+<h2 style={{marginLeft: "5%", borderBottom: '1.5px solid currentColor', display: 'inline-block'}}>Може да разгледате още:</h2>
 <div className='cards-container' style={{color:'black'}}>
     {filterByCategory.slice(0,4).map(CreateCard)}
   </div>
