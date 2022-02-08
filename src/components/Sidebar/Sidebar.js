@@ -21,10 +21,10 @@ const Sidebar = ({isOpen, toggle}) => {
                   
                     <div style={{marginTop: "60px"}}> 
                     <SidebarLink  onClick={() => { {toggle()}; window.reload(); }} to="/">
-                    <img src={logoClean} activeStyle style={{height: "90px", width: "90px"}} />
+                    <img src={logoClean} style={{height: "90px", width: "90px"}} />
                     </SidebarLink>
                     
-                    <Link to="/" style={{ textDecoration: 'none' }} onClick={() => { {toggle()}; window.reload(); }}><span class='textLogo'>Food Inspiration</span></Link>
+                    <Link to="/" style={{ textDecoration: 'none' }} onClick={() => { {toggle()}; window.reload(); }}><span className='textLogo'>Food Inspiration</span></Link>
                     </div>
                           <div className="menusb-cont">
                             <button onClick={onClick} className='dropbtn'>
