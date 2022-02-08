@@ -49,9 +49,9 @@ const Navbar = ( { toggle } ) => {
                       </div>
                          
                     </div>
-                    <div className='menu' ><NavLink to="/inspire"  activeStyle>Вдъхнови се тук&nbsp;<FaAngleDown /></NavLink></div>
-                    <div className='menu' ><NavLink to="/about"    activeStyle>За мен&nbsp;                        </NavLink></div>
-                    <div className='menu' ><NavLink to="/contacts" activeStyle>Контакт&nbsp;                       </NavLink></div>
+                    <div className='menu' ><NavLink to="/inspire"  >Вдъхнови се тук&nbsp;<FaAngleDown /></NavLink></div>
+                    <div className='menu' ><NavLink to="/about"    >За мен&nbsp;                        </NavLink></div>
+                    <div className='menu' ><NavLink to="/contacts" >Контакт&nbsp;                       </NavLink></div>
                 </NavMenu>
                 <Bars onClick={toggle} />
             </Nav>
