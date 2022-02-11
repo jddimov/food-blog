@@ -88,3 +88,9 @@
     padding: 15px 20px;
     display: block;
   }
+  .cont2 {
+    transform: rotateZ(180deg);
+  }
+  .cont {
+    transform: rotateZ(0deg);
+  }
