@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react'
 import { SidebarContainer, Icon, CloseIcon, SidebarMenu, SidebarLink } from './SidebarElement'
 import { useDetectOutsideClick } from "../Navbar/useDetectOutsideClick";
 import logoClean from "../Navbar/logo-clean.png";
@@ -11,6 +11,13 @@ const Sidebar = ({isOpen, toggle}) => {
     const [sidebarDropIsActive, setSidebarDropIsActive] = useDetectOutsideClick(dropdownRef, false);
     const onClick = () => setSidebarDropIsActive(!sidebarDropIsActive);
 
+    const [faAngle, setFaAngle] = useState("downFaAngle");
+    const changeFaAngle = () => {
+    if (faAngle === "downFaAngle") {
+      setFaAngle("downFaAngleRotate");
+    } else {  setFaAngle("downFaAngle");}
+  };
+
     return (
         <SidebarContainer isOpen={isOpen} >
             <Icon onClick={toggle}>
@@ -21,14 +28,14 @@ const Sidebar = ({isOpen, toggle}) => {
                   
                     <div style={{marginTop: "60px"}}> 
                     <SidebarLink  onClick={() => { {toggle()}; window.reload(); }} to="/">
-                    <img src={logoClean} style={{height: "90px", width: "90px"}} />
+                    <img src={logoClean} style={{height: "90px", width: "90px"}} alt="logo"/>
                     </SidebarLink>
                     
                     <Link to="/" style={{ textDecoration: 'none' }} onClick={() => { {toggle()}; window.reload(); }}><span className='textLogo'>Food Inspiration</span></Link>
                     </div>
                           <div className="menusb-cont">
                             <button onClick={onClick} className='dropbtn'>
-                              <span style={{fontSize: '150%', color: 'black'}}>Рецепти&nbsp; <FaAngleDown /></span> 
+                              <span onClick={changeFaAngle} style={{fontSize: '150%', color: 'black'}}>Рецепти&nbsp; <FaAngleDown className={faAngle} /></span> 
                             </button>
                           </div>
             

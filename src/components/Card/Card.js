@@ -1,4 +1,4 @@
-import React from 'react'
+import React  from 'react'
 import "./Card.css"
 import { FaRegClock } from "react-icons/fa";
 import serving from "./serving.png";
@@ -12,8 +12,8 @@ function Card(props) {
         <div className="card-container">
             
             <div >
-             <Link to={`/recipes/${props.category}/${props.url}/`}>
-             <img src={props.imgMain} className='cardImage'></img></Link>
+             <Link to={`/recipes/${props.category}/${props.url}/`} >
+             <img src={props.imgMain} className='cardImage' alt='food'></img></Link>
             </div>
 
             <div className='cardContent'>
@@ -24,7 +24,7 @@ function Card(props) {
                         {CreateDifficulty(props.difficulty)}
                     </div>
 
-                    <div><img src={serving} style={{ height: "26px", width: "26px" }} /></div>
+                    <div><img src={serving} style={{ height: "26px", width: "26px" }} alt='serving' /></div>
              
                     <div style={{fontSize: '12px'}}>ВРЕМЕ   </div>
                     <div style={{fontSize: '12px'}}>СЛОЖНОСТ</div>

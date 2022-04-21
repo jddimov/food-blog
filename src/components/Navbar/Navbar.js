@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react'
 import { Nav, NavLink, Bars, NavMenu } from "./NavbarElements";
 import { Link } from 'react-router-dom'
 import { FaAngleDown, FaAngleRight } from "react-icons/fa";
@@ -13,15 +13,22 @@ import logoClean from "./logo-clean.png";
 const Navbar = ( { toggle } ) => {
     const dropdownRef = useRef(null);
     const [dropDownIsActive, setDropDownIsActive] = useDetectOutsideClick(dropdownRef, false);
-    const onClick = () => setDropDownIsActive(!dropDownIsActive);
+    const onClick = () => {setDropDownIsActive(!dropDownIsActive) 
+      if (!dropDownIsActive) {
+        setStyle("cont2");
+      }  if (dropDownIsActive){ setStyle("cont");}
+    } 
     
+    const [style, setStyle] = useState("cont");
+    
+
     return (
         <>
             <Nav >
             
                 <NavLink to="/" onClick={() => window.reload()}>
                 <div style={{ margin: "40px 100px 10px 10px"}}>
-                <img src={logoClean}  style={{height: "90px", width: "90px", color: "#8c0608"}} />
+                <img src={logoClean}  style={{height: "90px", width: "90px", color: "#8c0608"}} alt="logo"/>
                 <span className='foodInspiration' >Food Inspiration</span>
                 </div>
                 </NavLink>
@@ -32,7 +39,7 @@ const Navbar = ( { toggle } ) => {
                       <div className="container">
                           <div className="menudd-container">
                             <button onClick={onClick} className="menudd-trigger">
-                              <span style={{fontSize: '150%', color: '#700000'}}>Рецепти&nbsp; <FaAngleDown /></span> 
+                              <span style={{fontSize: '150%', color: '#700000'}}>Рецепти&nbsp; <FaAngleDown className={style}  /></span> 
                             </button>
           
                             <nav ref={dropdownRef} className={`menudd ${dropDownIsActive ? "active" : "inactive"}`} >
