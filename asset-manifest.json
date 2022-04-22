@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/food-blog/static/css/main.e0cc967c.css",
-    "main.js": "/food-blog/static/js/main.5fba4862.js",
+    "main.js": "/food-blog/static/js/main.3b7022d4.js",
     "static/media/(3).jpg": "/food-blog/static/media/(3).99fc34585a90f8a177cf.jpg",
     "static/media/(2).jpg": "/food-blog/static/media/(2).f721c2fbc8984bb50df1.jpg",
+    "static/media/(4).jpg": "/food-blog/static/media/(4).a9904c8d36dd1875b436.jpg",
     "static/media/(1).jpg": "/food-blog/static/media/(1).3d852845ae5c811544cc.jpg",
-    "static/media/(4).jpg": "/food-blog/static/media/(4).e2c04286d4beca538c87.jpg",
     "static/media/white-sourdough-bread.jpg": "/food-blog/static/media/white-sourdough-bread.6096bc3d231580fd8c23.jpg",
     "static/media/strawberries-salad.jpg": "/food-blog/static/media/strawberries-salad.6c0d9aa5577b04e41c00.jpg",
     "static/media/bruschetta-mix.jpg": "/food-blog/static/media/bruschetta-mix.8eb5d7ba218963b7abda.jpg",
@@ -40,10 +40,10 @@
     "static/media/tiramisu.jpg": "/food-blog/static/media/tiramisu.aae28d0776cde82f9f24.jpg",
     "index.html": "/food-blog/index.html",
     "main.e0cc967c.css.map": "/food-blog/static/css/main.e0cc967c.css.map",
-    "main.5fba4862.js.map": "/food-blog/static/js/main.5fba4862.js.map"
+    "main.3b7022d4.js.map": "/food-blog/static/js/main.3b7022d4.js.map"
   },
   "entrypoints": [
     "static/css/main.e0cc967c.css",
-    "static/js/main.5fba4862.js"
+    "static/js/main.3b7022d4.js"
   ]
 }
