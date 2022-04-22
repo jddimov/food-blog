@@ -1,46 +1,31 @@
 import React from 'react'
+import CardInfo from '../components/Card/CardInfo';
+import CreateCard from '../components/Card/CreateCard';
 
 
 
+const Inspire = () => {
+    const filterInspire = CardInfo.filter(card => card.category == "inspire")
 
-function Inspire  ()  {
-    return (
-        <div>
-       <div></div>
-            <h1>vyhnovi se 1</h1>
-            <div style={{ marginTop: "80px" }}></div>
-          
-            <h1>vyhnovi se 2</h1>
-            <h1>vyhnovi se 3</h1>
-            <h1>vyhnovi se 4</h1>
-            <h1>vyhnovi se 5</h1>
-            <h1>vyhnovi se </h1>
-            <h1>vyhnovi se </h1>
-            <h1>vyhnovi se </h1>
-            <h1>vyhnovi se </h1>
-            <h1>vyhnovi se 10</h1>
-            <h1>vyhnovi se </h1>
-            <h1>vyhnovi se </h1>
-            <h1>vyhnovi se </h1>
-            <h1>vyhnovi se </h1>
-            <h1>vyhnovi se 15</h1>
-            <h1>vyhnovi se </h1>
-            <h1>vyhnovi se </h1>
-            <h1>vyhnovi se </h1>
-            <h1>vyhnovi se </h1>
-            <h1>vyhnovi se 20</h1>
-            <h1>vyhnovi se </h1>
-            <h1>vyhnovi se </h1>
-            <h1>vyhnovi se </h1>
-            <h1>vyhnovi se </h1>
-            <h1>vyhnovi se 25</h1>
-            <h1>vyhnovi se </h1>
-            <h1>vyhnovi se </h1>
-            <h1>vyhnovi se </h1>
-            <h1>vyhnovi se </h1>
-            <h1>vyhnovi se 30</h1>
-        </div>
-    )
+    return <div>
+  <div>&nbsp;</div>
+  <div>&nbsp;</div>
+  <div>&nbsp;</div>
+  <h1 style={{
+  marginTop: "2rem", 
+  color:'#600000', 
+  borderBottom: '1.5px solid currentColor', 
+  display: 'inline-block',
+  position:'relative',
+  left:'50%',
+  transform: 'translateX(-50%)'}}>Ето и нашите по-нестандартни рецепти</h1>
+  <div className='cards-container'>
+
+    {filterInspire.map(CreateCard)}
+
+  </div>
+
+  </div>;
 }
 
 export default Inspire

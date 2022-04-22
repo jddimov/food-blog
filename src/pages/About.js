@@ -5,10 +5,10 @@ const About = () => {
     return (
         <div>
             <h1>About</h1>
-            <h1>About</h1>
-            <h1>About</h1>
-            <h1>About</h1>
-            <h1>About 5</h1>
+            <div style={{ marginTop: "80px" }}></div>
+            <h1 style={{ marginLeft: '5%',  marginTop: '5%'}} >Шеф Лора Димова</h1>
+            <h1 style={{ marginLeft: '5%',  marginTop: '25%'}}>Очаквайте скоро повече информация!</h1>
+            
             
             
             
