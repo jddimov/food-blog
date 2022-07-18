@@ -28,6 +28,14 @@ import porkCutlets from "./pictures/izbrani/pork-cutlets.jpg";
 import chickenMeatballs from "./pictures/izbrani/chicken-meatballs.jpg";
 import cannoliRicotta from "./pictures/izbrani/cannoli-ricotta.jpg";
 import chocolateBrownie from "./pictures/izbrani/chocolate-brownie.jpg";
+import healthyCandy from "./pictures/izbrani/healthy-candy.jpg";
+import treeTypesOfHummus from "./pictures/izbrani/tree-types-of-hummus.jpg";
+import cottageCheeseMuffins from "./pictures/izbrani/cottage-cheese-muffins.jpg";
+import grizzinsWithSourdough from "./pictures/izbrani/grizzins-with- sourdough.jpg";
+import saladMixWithMozzarella from "./pictures/izbrani/salad-mix-with-mozzarella.jpg";
+import butterBiscuitsWithChocolate from "./pictures/izbrani/butter-biscuits-with-chocolate.jpg";
+import risottoWithChickenAndPorcini from "./pictures/izbrani/risotto-with-chicken-and-porcini.jpg";
+import spaghettiBolognese from "./pictures/izbrani/spaghetti-bolognese.jpg";
 
 
 
@@ -394,6 +402,102 @@ const CardInfo = [
         difficulty: "1",
         servings: "7",
         category: "inspire"
+    },
+    {
+        id: 30,
+        imgMain: spaghettiBolognese,
+        url: "spaghetti-bolognese",
+        title: "Спагети болонезе",
+        products: "<u>Необходими продукти:</u> <br><br>&nbsp&nbspЗа соса болонезе:<br>&nbsp&nbsp-1 глава лук<br>&nbsp&nbsp-1 морков<br>&nbsp&nbsp-1 скилидка чесън <br>&nbsp&nbsp-250 гр. смляно свинско или телешко месо<br>&nbsp&nbsp-400 гр. домати от буркан <br>&nbsp&nbsp-сол<br>&nbsp&nbsp-черен пипер<br>&nbsp&nbsp-червен пипер<br>&nbsp&nbsp-щипка захар<br>&nbsp&nbsp-олио<br>&nbsp&nbsp-няколко листа босилек<br>&nbsp&nbsp-пармезан<br><br>За пастата:<br>&nbsp&nbsp-250 гр. спагети<br>&nbsp&nbsp-зехтин<br>&nbsp&nbsp-щипка сол",
+        description: "Всички обичаме паста със сос болонезе. Една вкусна паста с мляно месо, домати и щедро поръсена с пармезан.<br><br>Нарежете лука, моркова и чесъна на ситно и ги запържете в тиган с малко олио. След като омекнат, добавете каймата и запържете и нея. Когато тя е готова, сложете доматите, а заедно с тях  солта, черния и червения пипер, захарта и половината от босилека. Варете соса до неговото сгъстяване.<br>През това време сварете спагетите според описанието на опаковката със сол. Когато са почти готови, ги изсипете при соса с 1 черпак от водата, в която сте ги варили. Варете за 1-2 минути.<br>Сервирайте като настържете пармезан, поръсите с черен пипер и листа босилек. Завършете с капка зехтин.",
+        minutes: "30 мин",
+        difficulty: "1",
+        servings: "2",
+        category: "main-dish"
+    },
+    {
+        id: 31,
+        imgMain: risottoWithChickenAndPorcini,
+        url: "risotto-with-chicken-and-porcini",
+        title: "Ризото с пиле и манатарки",
+        products: "<u>Необходими продукти:</u> <br> <br>&nbsp&nbspЗа ризотото:<br>&nbsp&nbsp-150 гр. ориз арборио<br>&nbsp&nbsp-50 мл. бяло вино<br>&nbsp&nbsp-1 глава лук<br>&nbsp&nbsp-1 морков <br>&nbsp&nbsp-50 гр. масло <br>&nbsp&nbsp-сол<br>&nbsp&nbsp-черен пипер<br>&nbsp&nbsp-мащерка<br>&nbsp&nbsp-водата от манатарките<br>&nbsp&nbsp-пармезан <br><br>За манатарките:<br>&nbsp&nbsp-100 гр. сухи манатарки <br>&nbsp&nbsp-топла вода <br>&nbsp&nbsp-масло<br>&nbsp&nbsp-сол<br>&nbsp&nbsp-черен пипер<br><br>За пилето:<br>&nbsp&nbsp-150 гр. пилешко филе<br>&nbsp&nbsp-сол<br>&nbsp&nbsp-черен пипер<br><br>За бульона:<br>&nbsp&nbsp-вода<br>&nbsp&nbsp-лук<br>&nbsp&nbsp-морков<br>&nbsp&nbsp-чушка",
+        description: "Това е една моя много любима рецепта. Когато усетя аромата на прясна мащерка винаги ми напомня за нея.<br><br>Първото нещо, което трябва да направим е бульон от изброените продукти. Слагаме в тенджера вода и зеленчуците и варим около 15 минути.<br>През това време накисваме манатарките в топла вода за около 20 минути, докато те набъбнат леко. След това ги слагаме на тигана и ги задушаваме с малко масло. Накрая прибавяме черния пипер и солта. Когато са готови ги махаме от тигана и ги слагаме в чиния за по-късно.<br>В същия тиган запържваме пилето с малко олио и добавяме солта и черния пипер.<br>През това време в друг тиган слагаме лука и моркова, запържваме ги за кратко и после добавяме ориза. Той трябва да стане прозрачен, когато това стане слагаме манатарките и виното. Щом течността се поеме от ориза, започваме малко по малко да добавяме от бульона. Когато е почти готов, преминаваме към добавяне на водата от манатарките, която е предварително мината през цедка. Тук е момента да сложим и пилето в тигана. Слагаме подправки, когато е почти готов и задължително завършваме с масло, пармезан и мащерка.<br>Когато сервираме отново поръсваме с пармезан и мащерка.",
+        minutes: "30 мин",
+        difficulty: "2",
+        servings: "2",
+        category: "main-dish"
+    },
+    {
+        id: 32,
+        imgMain: butterBiscuitsWithChocolate,
+        url: "butter-biscuits-with-chocolate",
+        title: "Маслени бисквити с шоколад",
+        products: "<u>Необходими продукти:</u> <br> <br>&nbsp&nbsp-300 гр. брашно<br>&nbsp&nbsp-200 гр. студено масло<br>&nbsp&nbsp-100 гр. захар<br>&nbsp&nbsp-1 яйце<br>&nbsp&nbsp-щипка сол<br>&nbsp&nbsp-шоколад за гарниране",
+        description: "Това са едни от най-лесните бисквити, които съм правила, а и едни от най-вкусните. Миришат на масло и имат вкус на шоколад.<br><br>Замесва се тесто от изброените продукти. Оставя се в хладилник за 30 мин да стегне покрито с фолио.<br>След това се разточва тънка кора върху набрашнен плот и се изрязват формички пожелание. Пече се за около 10-15 минути в предварително загрята фурна на 200 гр.<br>Декорират се с разтопен шоколад.",
+        minutes: "60 мин",
+        difficulty: "1",
+        servings: "20",
+        category: "dessert"
+    },
+    {
+        id: 33,
+        imgMain: saladMixWithMozzarella,
+        url: "salad-mix-with-mozzarella",
+        title: "Вариация на микс от салатки",
+        products: "<u>Необходими продукти:</u> <br> <br>&nbsp&nbsp-1 пакет салатен микс<br>&nbsp&nbsp-малки топчици сирене моцарела<br>&nbsp&nbsp-чери домати<br>&nbsp&nbsp-домашно направени крутони<br><br>За дресинга:<br>&nbsp&nbsp-3 с.л. зехтин<br>&nbsp&nbsp-3 с.л. лимон<br>&nbsp&nbsp-3 с.л. балсамико<br>&nbsp&nbsp-1 с.л. горчица<br>&nbsp&nbsp-сол",
+        description: "Много приятна и свежа салата, която си отива с чаша охладено вино.<br><br>Накиснете салатения микс във вода. През това време подгответе дресинга като разбъркате всички съставки за него в буркан. Микса от салата подсушете и сложете в голяма купа. Нарежете чери доматите и сложете моцарелата. Изсипете дресинга и разбъркайте. За завършек поръсете с домашно направени крутони.",
+        minutes: "15 мин",
+        difficulty: "1",
+        servings: "2",
+        category: "salad"
+    },
+    {
+        id: 34,
+        imgMain: grizzinsWithSourdough,
+        url: "grizzins-with- sourdough",
+        title: "Гризинки с квас",
+        products: "<u>Необходими продукти:</u> <br> <br>&nbsp&nbsp-60 гр. квас (може да не е активен)<br>&nbsp&nbsp-100 гр. брашно <br>&nbsp&nbsp-50 гр. вода <br>&nbsp&nbsp-сол<br>&nbsp&nbsp-зехтин<br>&nbsp&nbsp-подправки по избор за поръсване",
+        description: "Вместо да си купувате от магазина соленки, това е една чудесна алтернатива с вкус на любими подправки и мирис на квас.<br><br>Рецептата е доста лесна. Замесете от изброените продукти меко тесто, при нужда може да добавите още брашно или вода. Оставете го да си почине около 30 минути, за да се отпусне глутена. Загрейте фурната на 200 градуса и разточете на много тънко тестото. Изрежете в желаната форма и поръсете с малко подправки. Печете за не повече от 10 минути в предварително загрята фурна на  200 градуса.",
+        minutes: "50 мин",
+        difficulty: "1",
+        servings: "5",
+        category: "inspire"
+    },
+    {
+        id: 35,
+        imgMain: cottageCheeseMuffins,
+        url: "cottage-cheese-muffins",
+        title: "Мъфини с извара",
+        products: "<u>Необходими продукти:</u> <br> <br>&nbsp&nbsp-300 гр. извара<br>&nbsp&nbsp-3 яйца<br>&nbsp&nbsp-150 гр. кисело мляко<br>&nbsp&nbsp-1 к.л. сода за хляб<br>&nbsp&nbsp-170 гр. сирене<br>&nbsp&nbsp-50 гр. брашно <br>&nbsp&nbsp-сол<br>&nbsp&nbsp-подправки пожелание <br>&nbsp&nbsp-олио",
+        description: "Отново една разнообразна закуска с доста протеин в нея.<br><br>Загрейте фурната на 200 градуса. Содата се разтваря в киселото мляко и се оставя настрани. Яйцата и изварата се смесват добре, като се намачкват с вилица, за да няма бучки от изварата. Добавя се киселото мляко, подправките и се натрошава сиренето. Разбърква се много добре и се прибавя малко олио и брашното. Пече се за около 30 минути.",
+        minutes: "40 мин",
+        difficulty: "1",
+        servings: "6",
+        category: "inspire"
+    },
+    {
+        id: 36,
+        imgMain: treeTypesOfHummus,
+        url: "tree-types-of-hummus",
+        title: "Три вида хумус",
+        products: "<u>Необходими продукти:</u> <br> <br>&nbsp&nbsp-1 буркан сварен нахут<br>&nbsp&nbsp-1 скилидка чесън<br>&nbsp&nbsp-сок от половин лимон<br>&nbsp&nbsp-сол<br>&nbsp&nbsp-черен пипер<br>&nbsp&nbsp-червен пипер<br>&nbsp&nbsp-1 ч.л. сусамов тахана<br>&nbsp&nbsp-1 ч.л. слънчогледов тахан<br>&nbsp&nbsp-зехтин<br><br> Допълнително:<br>&nbsp&nbsp-½ глава сварено цвекло<br>&nbsp&nbsp-1 с.л. песто",
+        description: "Ако искате да разнообразите вашия хумус, може да му добавите сварено цвекло, а също и песто от босилек.<br><br>Приготвянето му е доста лесно. Първо се слагат продуктите за хумуса в блендера и се пасира до готовност. Използвайте една част от вече готовия хумус с цвекло, а другата част с песто. Когато добавите пестото в хумуса, може да разбъркате и на ръка. За цвеклото – използвайте блендер като го добавите при вече готовия хумус.<br>Гарнирайте със зехтин и сусам за цвеклото и песто за хумуса с песто.",
+        minutes: "30 мин",
+        difficulty: "1",
+        servings: "5",
+        category: "appetizer"
+    },
+    {
+        id: 37,
+        imgMain: healthyCandy,
+        url: "healthy-candy",
+        title: "Здравословни бонбони",
+        products: "<u>Необходими продукти:</u> <br> <br>&nbsp&nbsp-200 гр. сурови ядки по избор<br>&nbsp&nbsp-2 с.л. какаово или кокосово масло<br>&nbsp&nbsp-2 с.л. натурално какао<br>&nbsp&nbsp-10 фурми<br><br> Допълнително:<br>&nbsp&nbsp-кокос за гарниране",
+        description: "Толкова добре се съчетават фурми с какао и ядки, че един бонбон не ти стига.<br><br>За приготвянето им ще ви трябва блендер. Сложете всички продукти в него и пасирайте до готовност. При нужда може да добавите още от фурмите или маслото. Оформете на топчета и ги поръсете с кокос или ядки пожелание.",
+        minutes: "20 мин",
+        difficulty: "1",
+        servings: "5",
+        category: "dessert"
     }
 ]
 
