@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/food-blog/static/css/main.e0cc967c.css",
-    "main.js": "/food-blog/static/js/main.3b7022d4.js",
+    "main.js": "/food-blog/static/js/main.25b062f2.js",
     "static/media/(3).jpg": "/food-blog/static/media/(3).99fc34585a90f8a177cf.jpg",
     "static/media/(2).jpg": "/food-blog/static/media/(2).f721c2fbc8984bb50df1.jpg",
     "static/media/(4).jpg": "/food-blog/static/media/(4).a9904c8d36dd1875b436.jpg",
@@ -15,15 +15,19 @@
     "static/media/t-bone-steak.jpg": "/food-blog/static/media/t-bone-steak.18fbaac466eeb32a348d.jpg",
     "static/media/red-pepper-relish.jpeg": "/food-blog/static/media/red-pepper-relish.acb3e0b930a1ce65f006.jpeg",
     "static/media/homemade-pasta.jpg": "/food-blog/static/media/homemade-pasta.8e508bc08723d1ad159f.jpg",
+    "static/media/cottage-cheese-muffins.jpg": "/food-blog/static/media/cottage-cheese-muffins.13b90a1f9061df83ebac.jpg",
     "static/media/pumpkin-pastry.jpg": "/food-blog/static/media/pumpkin-pastry.865a0a7b82591cd1b9ee.jpg",
     "static/media/chocolate-souffle.jpg": "/food-blog/static/media/chocolate-souffle.519bd7c430794e89a58e.jpg",
     "static/media/summer-mint-salad.jpg": "/food-blog/static/media/summer-mint-salad.80851df3b840639adb8a.jpg",
+    "static/media/butter-biscuits-with-chocolate.jpg": "/food-blog/static/media/butter-biscuits-with-chocolate.dfc50d2edb53f5014433.jpg",
     "static/media/bean-soup.jpg": "/food-blog/static/media/bean-soup.d3660d8a37d47bda9061.jpg",
     "static/media/chocolate-brownie.jpg": "/food-blog/static/media/chocolate-brownie.a86c276bec4c31a27901.jpg",
     "static/media/pizza-dough.jpg": "/food-blog/static/media/pizza-dough.c92e33f1247491c3606a.jpg",
     "static/media/french-honey-cake.jpg": "/food-blog/static/media/french-honey-cake.908f791d3bdcc780c8a7.jpg",
     "static/media/cheesecake-raspberry.jpg": "/food-blog/static/media/cheesecake-raspberry.9425319a615c512f323e.jpg",
     "static/media/pancakes-with-yoghurt.jpg": "/food-blog/static/media/pancakes-with-yoghurt.b18d7eda055eff96af90.jpg",
+    "static/media/tree-types-of-hummus.jpg": "/food-blog/static/media/tree-types-of-hummus.7879297d0401f6e3b9c4.jpg",
+    "static/media/risotto-with-chicken-and-porcini.jpg": "/food-blog/static/media/risotto-with-chicken-and-porcini.09d2e6b9768c90ad3b2f.jpg",
     "static/media/sweet-bread.jpg": "/food-blog/static/media/sweet-bread.7f38a7a721f1ce0585f5.jpg",
     "static/media/cheesecake-chocolate.jpg": "/food-blog/static/media/cheesecake-chocolate.be091083ba9518a4ba00.jpg",
     "static/media/chicken-meatballs.jpg": "/food-blog/static/media/chicken-meatballs.54d4fc4a9dec1373dd0a.jpg",
@@ -33,6 +37,10 @@
     "static/media/spinach-meatballs.jpg": "/food-blog/static/media/spinach-meatballs.480e4940baa0733cbd0b.jpg",
     "static/media/cannoli-ricotta.jpg": "/food-blog/static/media/cannoli-ricotta.a3dba15513bd0a27637b.jpg",
     "static/media/backed-eggs.jpg": "/food-blog/static/media/backed-eggs.919516b0cfbffcd48b8c.jpg",
+    "static/media/grizzins-with- sourdough.jpg": "/food-blog/static/media/grizzins-with- sourdough.d0de562e126cf3b9e3b6.jpg",
+    "static/media/salad-mix-with-mozzarella.jpg": "/food-blog/static/media/salad-mix-with-mozzarella.aaf60672688604a4e919.jpg",
+    "static/media/healthy-candy.jpg": "/food-blog/static/media/healthy-candy.8a7c829974e23b77917c.jpg",
+    "static/media/spaghetti-bolognese.jpg": "/food-blog/static/media/spaghetti-bolognese.7e6ef3dd92a64b58abe7.jpg",
     "static/media/greek-salad.jpg": "/food-blog/static/media/greek-salad.f036771e7632273ace0a.jpg",
     "static/media/serving.png": "/food-blog/static/media/serving.55d831cce894c4bc98e1.png",
     "static/media/logo-clean.png": "/food-blog/static/media/logo-clean.cc9eeb1f940a3b172640.png",
@@ -40,10 +48,10 @@
     "static/media/tiramisu.jpg": "/food-blog/static/media/tiramisu.aae28d0776cde82f9f24.jpg",
     "index.html": "/food-blog/index.html",
     "main.e0cc967c.css.map": "/food-blog/static/css/main.e0cc967c.css.map",
-    "main.3b7022d4.js.map": "/food-blog/static/js/main.3b7022d4.js.map"
+    "main.25b062f2.js.map": "/food-blog/static/js/main.25b062f2.js.map"
   },
   "entrypoints": [
     "static/css/main.e0cc967c.css",
-    "static/js/main.3b7022d4.js"
+    "static/js/main.25b062f2.js"
   ]
 }
