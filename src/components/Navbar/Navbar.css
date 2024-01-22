@@ -7,11 +7,13 @@
 }
 
 .foodInspiration {
+    margin-left: 15px;
     color: #8c0608;
     font-size: 30px;
+    font-weight: bold;
 }
 
-@media  screen and (max-width: 405px) {
+@media  screen and (max-width: 550px) {
 .foodInspiration {
     display: none;
 }}

@@ -18,14 +18,16 @@
     height: 400px;
 }
 .cardTitle {
-    font-size: 60px;
+    font-size: 35px;
     margin-top: 32px;
-    margin-left: 5%;
+    margin-left: 15%;
+    font-weight: bold;
 }
 
 .infoContainer {
     margin-bottom: 10px;
     margin-top: 50px;
+
     width: 100%;
 }
 .testOfBorders{
@@ -52,13 +54,13 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    width: 80vw;
+    width: 45vw;
     gap: 2rem;
     margin-right: 10vw;
-    margin-left: 10vw;
+    margin-left: 15%;
     margin-bottom: 10px;
     margin-top: 10px;
-    font-size: 30px;
+    font-size: 25px;
     border: 1.5px solid rgb(138, 46, 46);
     padding: 1%;
 }
@@ -86,7 +88,7 @@
 }
 
 .productsAndImage {
-    margin: 5%;
+    margin: 10%;
     margin-top: 10%;
     width: 90%;
     display: flex;
@@ -138,10 +140,10 @@
 
 
 .detailDescription {
-
     height: auto;
-    width: 90%;
-    margin-left: 5%;
+    width: 80%;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-top: 5%;
     margin-bottom: 10%;
     font-size: 25px;

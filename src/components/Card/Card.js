@@ -29,9 +29,9 @@ function Card(props) {
                     <div style={{fontSize: '12px'}}>ВРЕМЕ   </div>
                     <div style={{fontSize: '12px'}}>СЛОЖНОСТ</div>
                     <div style={{fontSize: '12px'}}>ПОРЦИИ  </div>
-                    <div style={{fontSize: '20px'}}>{props.minutes}</div>
+                    <div style={{fontSize: '14px'}}>{props.minutes}</div>
                     <div style={{fontSize: '20px'}}>{CreateDiffNumbers(props.difficulty)}</div>
-                    <div style={{fontSize: '20px'}}>{props.servings}</div>
+                    <div style={{fontSize: '18px'}}>{props.servings}</div>
              
                 </div>
 
