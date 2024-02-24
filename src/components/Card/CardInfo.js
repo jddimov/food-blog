@@ -61,7 +61,7 @@ import quickPitaBread from "./pictures/izbrani/quick-pita-bread.jpg";
 import pitaBread from "./pictures/izbrani/pita-bread.jpg";
 import momsBread from "./pictures/izbrani/moms-bread.jpg";
 import fritata from "./pictures/izbrani/fritata.jpg";
-import cerealWithProtien from "./pictures/izbrani/cereal-with-protien.jpg";
+import cerealWithProtein from "./pictures/izbrani/cereal-with-protein.jpg";
 import chocolateBabka from "./pictures/izbrani/chocolate-babka.jpg";
 import chocolatePuding from "./pictures/izbrani/chocolate-puding.jpg";
 import twoToneCake from "./pictures/izbrani/two-tone-cake.jpg";
@@ -79,7 +79,7 @@ import napoleonCake from "./pictures/izbrani/napoleon-cake.jpg";
 import patatnik from "./pictures/izbrani/patatnik.jpg";
 import spaghettiWithChickenAndPocherini from "./pictures/izbrani/spaghetti-with-chicken-and-pocherini.jpg";
 import tagliatelleCarbonara from "./pictures/izbrani/tagliatelle-carbonara.jpg";
-import cheesecakeWithRaspberriesAndChocolate from "./pictures/izbrani/cheesecake-with-caspberries-cnd-chocolate.jpg";
+import cheesecakeWithRaspberriesAndChocolate from "./pictures/izbrani/cheesecake-with-raspberries-and-chocolate.jpg";
 
 
 
@@ -846,8 +846,8 @@ const CardInfo = [
     },
 {
         id: 63,
-        imgMain: cerealWithProtien,
-        url: "cerealWithProtien",
+        imgMain: cerealWithProtein,
+        url: "cerealWithProtein",
         title: "Протеинови топчета",
         products: "Необходими продукти:<br>&nbsp&nbsp- 1 яйце<br>&nbsp&nbsp- 30 гр. мед <br>&nbsp&nbsp- 25 гр. протеин<br>&nbsp&nbsp- 15 гр. какао<br>&nbsp&nbsp- 100 гр. смелени овесени ядки<br>&nbsp&nbsp- 1 ч.л. бакпулвер<br>&nbsp&nbsp- ванилия<br>&nbsp&nbsp- прясно мляко ",
         description: "Начин на приготвяне:<br><br>&nbsp&nbsp1. Загрей фурната на 200 градуса.<br>&nbsp&nbsp2.  Смеси всички продукти и ги намачкай хубаво. Ако сместа е прекалено гъста сложи няколко капки прясно мляко.<br>&nbsp&nbsp3. Сложи хартия за печене в тава и оформи малки топчета.<br>&nbsp&nbsp4. Изпечи за 15 минути.<br>&nbsp&nbsp5.  Съхранявай ги в плътно затворен буркан. ",
