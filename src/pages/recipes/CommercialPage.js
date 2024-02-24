@@ -50,7 +50,7 @@ const CommercialPage = () => {
   <div className='dangerousProduct' dangerouslySetInnerHTML={{__html: `${CardInfo[id].products}` }} />
 </div>
 
-<div style={{ marginLeft: '15%', fontSize: '28px', marginTop: '5%'}}>Приготвяне:</div>
+
 <div className='detailDescription' dangerouslySetInnerHTML={{__html: `${CardInfo[id].description}` }} />
 
 <h2 style={{marginLeft: "15%", borderBottom: '1.5px solid currentColor', display: 'inline-block'}}>Може да разгледате още:</h2>
